@@ -1,0 +1,57 @@
+/*
+
+Custom styles for pmckay.com
+
+*/
+
+
+
+html {
+  background: url('../img/typewriter.jpg');
+  /* Photo by Rick Harris via FLickr (http://bit.ly/1M1wTVg) under Creative Commons license (http://bit.ly/1dsePQq). No changes made to original work. */
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding-bottom: 2em;
+}
+
+.nav {
+  margin-top: 2em;
+  padding: 0.25em 1.75em;
+}
+
+
+
+#homepage .nav {
+  margin-top: 14em;
+}
+
+
+.nav * {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.nav h1, .nav ul {
+  margin: 0.5em 0;
+}
+
+.nav h1, .nav li {
+  margin: 0.5em 2.5em 0.5em 0;
+  }
+
+.nav h1 {
+  color: black;
+  }
+
+.nav li:hover {
+  color: #A80000;
+  }
+
+.nav, .content {
+  background: white;
+  opacity: 0.925;
+}
+
+.nav h1, .nav h1 * {color: black}
