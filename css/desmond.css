@@ -426,6 +426,12 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 
   }
 
+  .twentycolumn {
+    float: none;
+    display: block;
+    margin: 0 auto;    
+  }
+
 
  } /*End 700px breakpoint*/
 
