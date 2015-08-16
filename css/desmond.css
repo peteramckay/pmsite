@@ -32,7 +32,7 @@ Table of Content
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline
+  vertical-align: baseline;
 }
 
 html {
@@ -43,7 +43,6 @@ html {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   width: 100%;
-  min-height: 100% /* Assures the page will fill the whole browser window. */
 }
 
 body {
@@ -429,7 +428,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
   .twentycolumn {
     float: none;
     display: block;
-    margin: 0 auto;    
+    margin: 0 auto;
   }
 
 
