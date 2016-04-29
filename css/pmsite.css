@@ -5,13 +5,13 @@ Custom styles for pmckay.com, starting with the navigations...
 */
 
 
-html {padding-bottom: 3em}
+/* html {padding-bottom: 3em}
 
 
 body#homepage, .nav {
     background: url('../img/typewriter.jpg');
     /* Photo by Rick Harris via FLickr (http://bit.ly/1M1wTVg) under Creative Commons license (http://bit.ly/1dsePQq). No changes made to original work. */
-    background-size: cover;
+/*    background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
   }
@@ -19,17 +19,18 @@ body#homepage, .nav {
 
 body#homepage {background-attachment: fixed;}
 
-.nav * {
+
+*/
+
+ul li {
     display: inline-block;
     padding: 0;
     margin: 0;
+    list-style: none;
   }
 
 
-.nav {
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
-  }
+ul {}
 
 
 .nav h1, .nav h1 * {color: #f7f7f7}

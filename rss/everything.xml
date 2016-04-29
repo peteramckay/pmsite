@@ -4,9 +4,9 @@
 
 <channel>
 
-  <title><!-- Site name goes here --></title>
-  <link><!-- Homepage url goes here --></link>
-  <description><!-- Shorthand description of the site goes here. --></description>
+  <title>Peter McKay</title>
+  <link>https://pmckay.com</link>
+  <description>Personal site for Peter McKay, a writer, developer, and entrepreneur based in the Bay Area.</description>
 
   <item> <!-- Tags and metadata here for an individual blog post or web page-->
     <title></title>
