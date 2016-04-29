@@ -60,15 +60,20 @@
 		  
 	  .navs h6, .navs ul {display:inline-block; margin: 0}
 	  
-	  .navs h6 {margin: 0.5rem 2.5rem 0.5rem 0;}
+	  .navs h6 {margin: 0.5rem 2.25rem 0.5rem 0;}
 	  
 	  .navs li {
 		  display: inline-block;
 		  font-family: 'Roboto', sans-serif;
-		  margin: 0.5rem 2.5rem 0.5rem 0;
+		  margin: 0.5rem 2.25rem 0.5rem 0;
 		  }
 	  
-	  .navs a{color: white}
+	  .navs a {color: white}
+	  
+	  .navs iframe {
+		  position: relative;
+		  top: 0.75rem;
+		  }
 	  
 	</style>
   
@@ -98,7 +103,7 @@
 
       <ul>
         <a href="../blog"><li>blog</li></a>
-        <a href="//twitter.com/peteramckay" target="blank"><li>twitter</li></a>
+        <a href="//twitter.com/peteramckay" target="blank"><li>twitter</li></a
         <a href="//github.com/peteramckay" target="blank"><li>github</li></a>
         <a href="//www.linkedin.com/pub/peter-mckay/29/a91/909" target="blank"><li>linkedin</li></a>
         <a href="//www.facebook.com/peter.mckay.52" target="blank"><li>facebook</li></a>
@@ -111,10 +116,10 @@
 
 
 <div class="row navs padded-top padded-bottom">
-	
-  <h6>Peter McKay</h6>
+  <div class="twentycolumn">	
+    <h6>Peter McKay</h6>
 
-  <ul>
+    <ul>
       <a href="../index.html"><li>home</li></a>
       <a href="../rss/everything.xml"><li>rss</li></a>
       <a href="//twitter.com/peteramckay" target="blank"><li>twitter</li></a>
@@ -123,8 +128,11 @@
       <a href="//www.facebook.com/peter.mckay.52" target="blank"><li>facebook</li></a>
       <a href="mailto:peteramckay@gmail.com"><li>email</li></a>
       <a href=""><li>about</li></a>
-  </ul>
-
+      <li>
+        <iframe src="https://duckduckgo.com/search.html?width=175px&site=pmckay.com&prefill= " style="overflow:hidden;margin:0;padding:0;width:233px;height:40px;" frameborder="0"></iframe>
+      </li>
+    </ul>
+  </div><!-- End 20col container-->
 
 </div>
 
