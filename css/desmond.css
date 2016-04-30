@@ -43,6 +43,7 @@ html {
 }
 
 .row {
+  box-sizing: border-box;
   display: block;
   width: 100%;
   max-width: 4000px;
@@ -109,6 +110,7 @@ html {
 
 
 
+
 @media only screen and (max-width: 700px) {
   
   .row {
@@ -124,6 +126,7 @@ html {
     margin: 0 auto;
        
   } 
+  
   
  } /*End 700px breakpoint*/
 
@@ -161,7 +164,8 @@ a:hover, a:focus {text-decoration: underline}
 
 p, ul, ol, .button, label {
   font-size: 1rem;
-  margin-bottom: 1rem;  
+  margin-bottom: 1rem;
+  padding: 0;  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -219,27 +223,32 @@ ol {list-style: decimal inside}
 
 .no-padding {padding:0}
 
+.spacer {padding: 0.25em} /* This class allows you to create a blank column to offset elements horizontally if need be. Use an empty element and apply a column-based class for whatever offset is desired. Padding prevents spacer from collapsing on itself. */
+
+@media only screen and (max-width: 700px) {
+  .spacer: {padding: 0} /* Turning spacer off, allowing it to collapse, at breakpoint where layout goes all-vertical. */
+}
 
 
 /*--------------------------------------------------------------------------------------
 
-Video & Players
+Images & Video Players
 
 --------------------------------------------------------------------------------------*/
 
-/*
- 
 
-amp-img, amp-video, img, video {
+ 
+amp-img, amp-video, img, video, .video {
+  box-sizing: border-box;
   display: inline-block;
+  width: 100%;
   max-width: 100%;
+  height: auto;
   object-fit: contain;
   overflow: hidden;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
-  
-  
-*/
+    
 
 
 
@@ -250,6 +259,24 @@ amp-img, amp-video, img, video {
 
 
 /* Add styles for more html elements...
+
+
+li {}
+article {} 
+aside {}
+details {} 
+figcaption {}
+figure {}
+footer {}
+header {}
+hgroup {}
+menu {}
+nav {}
+section {}
+blockquote {}
+table {}
+
+
 
 
 Core AMP elements...
@@ -295,22 +322,7 @@ amp-youtube {}
 
 
 
-Other vanilla HTML elements...
-
-li {}
-article {} 
-aside {}
-details {} 
-figcaption {}
-figure {}
-footer {}
-header {}
-hgroup {}
-menu {}
-nav {}
-section {}
-blockquote {}
-table {}
 
 
 */
+
