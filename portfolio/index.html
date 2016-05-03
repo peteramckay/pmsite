@@ -70,11 +70,11 @@
     
     
     
-  <div class="row padded-top padded-bottom margin-top margin-bottom" id="flag">
+  <div class="row padded-top padded-bottom no-margin" id="flag">
 	 <div class="fourcolumn spacer"></div>
      <div class="twelvecolumn padded-bottom margin-bottom">
-       <h1 align=center>Writing Samples</h1>
-       <h4 align=center>By Peter McKay</h4>
+       <h1>Writing Samples</h1>
+       <h4>By Peter McKay</h4>
      </div>
   </div> <!-- End flag row -->
   
@@ -90,8 +90,8 @@
      </div><!-- End 3colcontainer -->
 
      <div class="ninecolumn">
-        <h4>Poynter essay re: encryption</h4>
-        <p>Summary. TKTKTKTKTK. Summary. Wherefore art thou?</p>
+        <h4>Round 1: The FBI vs. Apple. Round 2: The FBI vs. Journalists?</h4>
+        <p>Commentary for the Poynter Institute's website advocating that all news sites implement encryption to protect user privacy and free-speech rights. Published 3/7/16.</p>
      </div><!-- End 9col container--></a>
 
   </div> <!-- End sample row -->
@@ -105,14 +105,14 @@
 
      <div class="fourcolumn spacer"></div>
 
-     <div class="threecolumn">
+     <a href="https://peteramckay.wordpress.com/2013/05/24/product-managers-as-editors/" target="blank"><div class="threecolumn">
         <img src="../img/rss.jpg" alt="RSS logo">
      </div><!-- End 3colcontainer -->
 
      <div class="ninecolumn">
-        <h4>Editors/product managers</h4>
-        <p>Summary. TKTKTKTKTK. Summary. Wherefore art thou?</p>
-     </div><!-- End 9col container-->
+        <h4>Product managers as editors</h4>
+        <p>Personal blog post about some surprising areas of overlap between my experience as an entrepreneur/product manager and that of working in a newsroom. Published 5/24/13.</p>
+     </div><!-- End 9col container--></a>
 
   </div> <!-- End sample row -->
  
@@ -125,13 +125,13 @@
 
      <div class="fourcolumn spacer"></div>
 
-     <div class="threecolumn">
+     <a href="https://peteramckay.wordpress.com/2012/12/11/dont-do-it-mr-mayor/" target="blank"><div class="threecolumn">
         <img src="../img/rss.jpg" alt="RSS logo">
      </div><!-- End 3colcontainer -->
 
      <div class="ninecolumn">
-        <h4>Bloomberg post</h4>
-        <p>Summary. TKTKTKTKTK. Summary. Wherefore art thou?</p>
+        <h4>Don't do it, Mr. Mayor!</h4>
+        <p>Personal blog post advocating that Mike Bloomberg buy RIM instead of the Financial Times, a rumored acquisition target of his at the time. Published 12/11/12.</p>
      </div><!-- End 9col container-->
 
   </div> <!-- End sample row -->
@@ -145,20 +145,17 @@
 
      <div class="fourcolumn spacer"></div>
 
-     <div class="threecolumn">
+     <a href="https://www.evernote.com/shard/s30/sh/784d7ab2-0dd9-4e88-9ad0-f2662be2f28c/ecae78018c40900a4d9829433abd3ed4" target="blank"><div class="threecolumn">
         <img src="../img/wsjlogo200.jpg" alt="WSJ logo">
      </div><!-- End 3colcontainer -->
 
      <div class="ninecolumn">
-        <h4>Tradewinds story</h4>
-        <p>Summary. TKTKTKTKTK. Summary. Wherefore art thou?</p>
-     </div><!-- End 9col container-->
+        <h4>'My Confession': Fund Manager Falls Publicly</h4>
+        <p>Feature on a fraudulent money manager who sent his clients an unusual video message admitting his crimes. Aside from being a colorful yarn to tell, this was also one of the first stories on WSJ.com to integrate video gathered by staff rather than our then-broadcast partner CNBC. Published 9/16/04.</p>
+     </div><!-- End 9col container--></a>
 
   </div> <!-- End sample row -->
  
-
-
-
 
 
 
@@ -166,14 +163,14 @@
 
      <div class="fourcolumn spacer"></div>
 
-     <div class="threecolumn">
+     <a href="https://www.evernote.com/shard/s30/sh/2aa058a0-eb1b-4a76-b4f0-2ceb63ac4162/4197f2f310979493c998749805ddceb0" target="blank"><div class="threecolumn">
         <img src="../img/wsjlogo200.jpg" alt="WSJ logo">
      </div><!-- End 3colcontainer -->
 
      <div class="ninecolumn">
-        <h4>Marc Rich story</h4>
-        <p>Summary. TKTKTKTKTK. Summary. Wherefore art thou?</p>
-     </div><!-- End 9col container-->
+        <h4>While Marc Rich Was Fugitive, Firm Dealt With Pariah Nations</h4>
+        <p>Co-authored investigation of Marc Rich, a longtime fugitive commodity trader who controversally received a pardon from President Clinton on his last night in office. Published 2/23/01.</p>
+     </div><!-- End 9col container--></a>
 
   </div> <!-- End sample row -->
  
@@ -217,7 +214,8 @@
 		  
 	   
 	  .sample .threecolumn img {
-		  border: 1px solid #cccccc; 
+		  border: 1px solid #cccccc;
+		  max-width: 125px; 
 		  }
 		  
 	  .sample .ninecolumn {
@@ -233,6 +231,25 @@
 		  }
 	  
 	  .sample h4:hover {text-decoration: underline}
+	  
+	  #flag {
+		  background: #e8e8e8;
+		  }
+	  
+	  #flag h1, #flag h4 {
+		  text-align: center;
+		  }
+	  
+	  
+	  
+  @media only screen and (max-width: 700px) {
+	  
+	  	  #flag h1, #flag h4 {
+     		  text-align: left;
+		  }
+
+	  }
+	  
 	  
   </style>
   
