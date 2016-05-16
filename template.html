@@ -11,7 +11,7 @@
   <title> </title><!-- Add a title -->
 
   <link rel='canonical' href=''> <!-- Add page's canonical url -->
-  <link rel='icon' type='image/png' href='img/jollyroger.png' />
+  <link rel='icon' type='image/png' href='img/hedcut.jpg' />
   <link rel='dns-prefetch' href='//github.com/'>
   <link rel='dns-prefetch' href='//facebook.com/'>
   <link rel='dns-prefetch' href='//twitter.com/'>
@@ -45,23 +45,27 @@
 
 
 
-<div class="row navs padded-top padded-bottom">
-  <div class="twentycolumn">	
-    <h6><a href="index.html">peter mckay</a></h6>
+<div class="row navs">
+	
+	<div>
+      <h6><a href="index.html">peter mckay</a></h6>
+      <ul class="sitelinks">
+         <a href="about"><li>about</li></a>
+         <a href="posts"><li>posts</li></a>
+      </ul><!-- End sitelinks -->
+	</div>
 
-    <ul>
-       <a href="about"><li>about</li></a>
-        <a href="posts"><li>posts</li></a>
-        <a href="mailto:peteramckay@gmail.com"><li>email</li></a>
-        <a href="rss/everything.xml/"><li>rss</li></a>
-        <a href="//github.com/peteramckay"><li>github</li></a>
-        <a href="//twitter.com/peteramckay"><li>twitter</li></a>
-        <a href="//www.linkedin.com/pub/peter-mckay/29/a91/909"><li>linkedin</li></a>
-        <a href="//www.facebook.com/peter.mckay.52"><li>facebook</li></a>
-        <li id="searchbox"><iframe src="https://duckduckgo.com/search.html?width=175px&site=pmckay.com&prefill=search" style="overflow:hidden;margin:0;padding:0;width:233px;height:40px;" frameborder="0"></iframe></li>        
-    </ul>
-
-  </div><!-- End 20col container-->
+    
+    <ul class="sociallinks">
+      <a href="mailto:peteramckay@gmail.com"><li><img src="img/gmail.png" alt="Gmail logo"></li></a>
+      <a href="rss/everything.xml/"><li><img src="img/rss.jpg" alt="RSS logo"></li></a>
+      <a href="//github.com/peteramckay" target="blank"><li><img src="img/octocat.png" alt="GitHub logo"></li></a>
+      <a href="//twitter.com/peteramckay" target="blank"><li><img src="img/twitter.jpg" alt="Twitter logo"></li></a>
+      <a href="//www.linkedin.com/pub/peter-mckay/29/a91/909" target="blank"><li><img src="img/linkedin.png" alt="LinkedIn"></li></a>
+      <a href="//www.facebook.com/peter.mckay.52" target="blank"><li><img src="img/fb.jpg" alt="facebook logo"></li></a>
+      <li id="searchbox"><iframe src="https://duckduckgo.com/search.html?width=175px&site=pmckay.com&prefill=search" style="overflow:hidden;margin:0;padding:0;width:233px;height:40px;" frameborder="0"></iframe></li>        
+    </ul><!-- End sociallinks-->
+    
 </div>
 
 
@@ -124,41 +128,84 @@
         
         
     <!-- Some custom inline styles -->      
-        
-    <style>
-      
-      ul {
+
+
+    <style> 
+	
+	  .navs {
+		  background: #ebebeb;
+		  border-bottom: 1px solid #E0E0E0;
+		  padding: 0.5em 1.5% 0.25em 1.5%;
+		  }
+
+      .navs * {
+		  display: inline-block; 
+		  list-style: none;
+		  color: black;
+		  font-family: 'Roboto', sans-serif;
+		  margin: 0;
 		  padding: 0;
 		  }
 		  
-	  .navs {
-		  list-style: none;
-		  background: #5e5e5e;
-		  color: white;
-		  border-bottom: 1px solid #E0E0E0;
-		  
+	  .navs .twentycolumn>* {
+		  border: 1px dotted red;
 		  }
 		  
-	  .navs h6, .navs ul {display:inline-block; margin: 0}
+	  .navs img {height: 30px}
 	  
-	  .navs h6 {margin: 0.5rem 2.25rem 0.5rem 0;}
+	  .navs a:visited {color:black}
 	  
-	  .navs li {
-		  display: inline-block;
-		  font-family: 'Roboto', sans-serif;
-		  margin: 0.5rem 2.25rem 0.5rem 0;
+	  .navs a:hover li {text-decoration: underline}
+	  
+	  .navs h6, .sitelinks li {
+		  margin-right: 1.25rem;
+		  margin-top: 0.25rem
 		  }
 	  
-	  .navs a {color: white}
+	  .navs ul {}
 	  
-	  .navs iframe {
+	  .navs li {}
+	  
+	  .navs img {
+		  }
+
+      .sitelinks {
+		  }
+
+      .sociallinks {
+		  float: right;
+		  text-align: right;
+		  }
+		  
+	  .sociallinks a:nth-child(6) {margin-right: 1.25rem}
+	
+	   #searchbox {
+		   position: relative;
+		   top: 0.25em;
+		   }
+	
+	@media only screen and (max-width: 850px) {
+
+        .sociallinks {
+		  float: none;
+		  text-align: left;
+		  margin-top: 0.25rem;
+		  }
+
+	  .navs h6, .sitelinks li {
+		  margin-top: 0;
 		  position: relative;
-		  top: 0.75rem;
+		  bottom: 0.25rem;
 		  }
-		  		  	  
+
+
+
+		}
+	
 	</style>
 
-
+        
+   
 
   <!-- Optional scripts to run inline when page is done loading... -->
 
