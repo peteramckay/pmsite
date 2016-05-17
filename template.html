@@ -61,7 +61,7 @@
       <a href="rss/everything.xml/"><li><img src="img/rss.jpg" alt="RSS logo"></li></a>
       <a href="//github.com/peteramckay" target="blank"><li><img src="img/octocat.png" alt="GitHub logo"></li></a>
       <a href="//twitter.com/peteramckay" target="blank"><li><img src="img/twitter.jpg" alt="Twitter logo"></li></a>
-      <a href="//www.linkedin.com/pub/peter-mckay/29/a91/909" target="blank"><li><img src="img/linkedin.png" alt="LinkedIn"></li></a>
+      <a href="//www.linkedin.com/pub/peter-mckay/29/a91/909" target="blank"><li><img src="img/linkedin.jpg" alt="LinkedIn"></li></a>
       <a href="//www.facebook.com/peter.mckay.52" target="blank"><li><img src="img/fb.jpg" alt="facebook logo"></li></a>
       <li id="searchbox"><iframe src="https://duckduckgo.com/search.html?width=175px&site=pmckay.com&prefill=search" style="overflow:hidden;margin:0;padding:0;width:233px;height:40px;" frameborder="0"></iframe></li>        
     </ul><!-- End sociallinks-->
@@ -148,7 +148,6 @@
 		  }
 		  
 	  .navs .twentycolumn>* {
-		  border: 1px dotted red;
 		  }
 		  
 	  .navs img {height: 30px}
@@ -198,13 +197,45 @@
 		  bottom: 0.25rem;
 		  }
 
+        html {}
 
+      
+       .navs>* {
+		 display: block;
+		 text-align: center;  
+		 float: none;
+		 margin: 0.25rem auto;
+		   }
+		   
+	   .navs .sociallinks {
+
+		   }
 
 		}
+	
+	
+	
+	@media only screen and (max-width: 525px) {
+	
+		
+		.navs>* {
+		 text-align: left;
+		 padding: 0.25em 0;
+	      }
+	      
+	     #searchbox {margin-top: 0.25em}
+	     	      
+	     .navs {padding: 0.5em 4% 0.25em 4%}
+
+		
+		}
+	
 	
 	</style>
 
         
+   
+   
    
 
   <!-- Optional scripts to run inline when page is done loading... -->
