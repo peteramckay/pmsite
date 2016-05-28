@@ -52,19 +52,20 @@
       <ul class="sitelinks">
          <a href="about"><li>about</li></a>
          <a href="posts"><li>posts</li></a>
+         <a href="https://github.com/peteramckay/pmsite/commits/master"><li>revisions</li></a>
       </ul><!-- End sitelinks -->
 	</div>
 
     
-    <ul class="sociallinks">
-      <a href="mailto:peteramckay@gmail.com"><li><img src="img/gmail.png" alt="Gmail logo"></li></a>
-      <a href="rss/everything.xml/"><li><img src="img/rss.jpg" alt="RSS logo"></li></a>
-      <a href="//github.com/peteramckay" target="blank"><li><img src="img/octocat.png" alt="GitHub logo"></li></a>
-      <a href="//twitter.com/peteramckay" target="blank"><li><img src="img/twitter.jpg" alt="Twitter logo"></li></a>
-      <a href="//www.linkedin.com/pub/peter-mckay/29/a91/909" target="blank"><li><img src="img/linkedin.jpg" alt="LinkedIn"></li></a>
-      <a href="//www.facebook.com/peter.mckay.52" target="blank"><li><img src="img/fb.jpg" alt="facebook logo"></li></a>
-      <li id="searchbox"><iframe src="https://duckduckgo.com/search.html?width=175px&site=pmckay.com&prefill=search" style="overflow:hidden;margin:0;padding:0;width:233px;height:40px;" frameborder="0"></iframe></li>        
-    </ul><!-- End sociallinks-->
+    <div class="sociallinks">
+      <a href="mailto:peteramckay@gmail.com"><img src="img/gmail.png" alt="Gmail logo"></a>
+      <a href="rss/everything.xml/"><img src="img/rss.jpg" alt="RSS logo"></a>
+      <a href="//github.com/peteramckay" target="blank"><img src="img/octocat.png" alt="GitHub logo"></a>
+      <a href="//twitter.com/peteramckay" target="blank"><img src="img/twitter.jpg" alt="Twitter logo"></a>
+      <a href="//www.linkedin.com/pub/peter-mckay/29/a91/909" target="blank"><img src="img/linkedin.jpg" alt="LinkedIn"></a>
+      <a href="//www.facebook.com/peter.mckay.52" target="blank"><img src="img/fb.jpg" alt="facebook logo"></a>
+      <span id="searchbox"><iframe src="https://duckduckgo.com/search.html?width=175px&site=pmckay.com&prefill=search" style="overflow:hidden;margin:0;padding:0;width:233px;height:40px;" frameborder="0"></iframe></span>        
+    </div><!-- End sociallinks-->
     
 </div>
 
@@ -125,21 +126,19 @@
         
         
         
+    <!-- Some custom inline styles   -->  
         
         
-    <!-- Some custom inline styles -->      
+    <style>
 
-
-    <style> 
-	
 	  .navs {
 		  background: #ebebeb;
 		  border-bottom: 1px solid #E0E0E0;
-		  padding: 0.5em 1.5% 0.25em 1.5%;
+		  padding: 0.5em 1.5% 0.25em 1.5%;		  
 		  }
-
-      .navs * {
-		  display: inline-block; 
+	   
+	  .navs * {
+		  display: inline-block;
 		  list-style: none;
 		  color: black;
 		  font-family: 'Roboto', sans-serif;
@@ -147,41 +146,47 @@
 		  padding: 0;
 		  }
 		  
-	  .navs .twentycolumn>* {
+	  
+	  
+	  .navs li {
+		  list-style: none;
+		  display: inline-block;
 		  }
-		  
-	  .navs img {height: 30px}
 	  
-	  .navs a:visited {color:black}
-	  
-	  .navs a:hover li {text-decoration: underline}
+	  .navs img {
+		  max-height: 30px;
+		  width: auto;
+		  display: inline-block;
+		  margin: 0;
+		  padding: 0;
+		  }
+
+	  .navs ul a:hover li {text-decoration: underline}
+
+	  .navs ul a:visited li {color:black}
 	  
 	  .navs h6, .sitelinks li {
 		  margin-right: 1.25rem;
 		  margin-top: 0.25rem
 		  }
-	  
-	  .navs ul {}
-	  
-	  .navs li {}
-	  
-	  .navs img {
-		  }
 
-      .sitelinks {
-		  }
-
-      .sociallinks {
+        .sociallinks {
 		  float: right;
 		  text-align: right;
 		  }
+
+
+         #searchbox {
+			 position: relative;
+			 top: 0.25rem;
+			 }
+
+
+
 		  
 	  .sociallinks a:nth-child(6) {margin-right: 1.25rem}
-	
-	   #searchbox {
-		   position: relative;
-		   top: 0.25em;
-		   }
+
+
 	
 	@media only screen and (max-width: 850px) {
 
@@ -223,20 +228,22 @@
 		 padding: 0.25em 0;
 	      }
 	      
-	     #searchbox {margin-top: 0.25em}
+	     #searchbox {
+			 
+			 }
 	     	      
 	     .navs {padding: 0.5em 4% 0.25em 4%}
 
 		
 		}
-	
-	
-	</style>
 
-        
-   
-   
-   
+
+    
+    </style>    
+    
+    
+    
+    
 
   <!-- Optional scripts to run inline when page is done loading... -->
 
