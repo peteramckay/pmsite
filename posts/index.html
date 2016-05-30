@@ -43,62 +43,155 @@
 
 <body>
 
-  <div class="row navs padded-top padded-bottom">  
-   <div class="twentycolumn">	
-    <h6><a href="../index.html">peter mckay</a></h6>
 
-    <ul>
-       <a href="../about"><li>about</li></a>
-        <a href="../posts"><li>posts</li></a>
-        <a href="mailto:peteramckay@gmail.com"><li>email</li></a>
-        <a href="../rss/everything.xml/"><li>rss</li></a>
-        <a href="//github.com/peteramckay"><li>github</li></a>
-        <a href="//twitter.com/peteramckay"><li>twitter</li></a>
-        <a href="//www.linkedin.com/pub/peter-mckay/29/a91/909"><li>linkedin</li></a>
-        <a href="//www.facebook.com/peter.mckay.52"><li>facebook</li></a>
-        <li id="searchbox"><iframe src="https://duckduckgo.com/search.html?width=175px&site=pmckay.com&prefill=search" style="overflow:hidden;margin:0;padding:0;width:233px;height:40px;" frameborder="0"></iframe></li>        
-    </ul>
-   </div><!-- End 20col container-->	  
-  </div><!-- End row-->
+<div class="row navs">
+	
+	<div>
+      <h6><a href="../index.html">peter mckay</a></h6>
+      <ul class="sitelinks">
+         <a href="../posts"><li>posts</li></a>
+         <!-- <a href="https://github.com/peteramckay/pmsite/commits/master"><li>revisions</li></a> -->
+         <a href="../about"><li>about</li></a>
+      </ul><!-- End sitelinks -->
+	</div>
+
+    
+    <div class="sociallinks">
+      <a href="mailto:peteramckay@gmail.com"><img src="../img/gmail.png" alt="Gmail logo"></a>
+      <a href="../rss/everything.xml/"><img src="../img/rss.jpg" alt="RSS logo"></a>
+      <a href="//github.com/peteramckay" target="blank"><img src="../img/octocat.png" alt="GitHub logo"></a>
+      <a href="//twitter.com/peteramckay" target="blank"><img src="../img/twitter.jpg" alt="Twitter logo"></a>
+      <a href="//www.linkedin.com/pub/peter-mckay/29/a91/909" target="blank"><img src="../img/linkedin.jpg" alt="LinkedIn"></a>
+      <a href="//www.facebook.com/peter.mckay.52" target="blank"><img src="../img/fb.jpg" alt="facebook logo"></a>
+      <span id="searchbox"><iframe src="https://duckduckgo.com/search.html?width=175px&site=pmckay.com&prefill=search" style="overflow:hidden;margin:0;padding:0;width:233px;height:40px;" frameborder="0"></iframe></span>        
+    </div><!-- End sociallinks-->
+    
+</div> <!-- End navs row-->
+
+
+
+<div class="row">
+
     
    <h6>Coming soon</h6>    
     
-  <div class="row padded-top padded-bottom margin-top margin-bottom">
-  </div> 
-    
-    
-  <style>
+      <style>
       
-            
-      ul {
+    	  .navs {
+		  background: #ebebeb;
+		  border-bottom: 1px solid #E0E0E0;
+		  padding: 0.5em 1.5% 0.25em 1.5%;		  
+		  margin-bottom: 1.5rem;
+		  
+		  }
+	   
+	  .navs * {
+		  display: inline-block;
+		  list-style: none;
+		  color: black;
+		  font-family: 'Roboto', sans-serif;
+		  margin: 0;
 		  padding: 0;
 		  }
 		  
-	  .navs {
-		  list-style: none;
-		  background: #5e5e5e;
-		  color: white;
-		  border-bottom: 1px solid #E0E0E0;
-		  }
-		  
-	  .navs h6, .navs ul {display:inline-block; margin: 0}
 	  
-	  .navs h6 {margin: 0.5rem 2.25rem 0.5rem 0;}
 	  
 	  .navs li {
+		  list-style: none;
 		  display: inline-block;
-		  font-family: 'Roboto', sans-serif;
-		  margin: 0.5rem 2.25rem 0.5rem 0;
 		  }
 	  
-	  .navs a {color: white}
-	  
-	  .navs iframe {
-		  position: relative;
-		  top: 0.75rem;
+	  .navs img {
+		  max-height: 30px;
+		  width: auto;
+		  display: inline-block;
+		  margin: 0;
+		  padding: 0;
 		  }
-  </style>
+
+	  .navs ul a:hover li {text-decoration: underline}
+
+	  .navs ul a:visited, .navs h6 a:visited {color:black;}
+	  
+	  .navs h6, .sitelinks li {
+		  margin-right: 1.25rem;
+		  margin-top: 0.25rem;
+		  }
+	  
+        .sociallinks {
+		  float: right;
+		  text-align: right;
+		  }
+
+
+         #searchbox {
+			 position: relative;
+			 top: 0.25rem;
+			 }
+
+		  
+   	   .sociallinks a:nth-child(6) {margin-right: 1.25rem}
+
   
+       .navs li {
+		   }
+
+	
+	@media only screen and (max-width: 925px) {
+
+        .sociallinks {
+		  float: none;
+		  text-align: left;
+		  margin-top: 0.25rem;
+		  }
+
+	  .navs h6, .sitelinks li {
+		  margin-top: 0;
+		  position: relative;
+		  bottom: 0.25rem;
+		  }
+  
+       .navs>* {
+		 display: block;
+		 text-align: center;  
+		 float: none;
+		 margin: 0.25rem auto;
+		   }
+		   
+		}
+	
+
+	
+	
+	@media only screen and (max-width: 525px) {
+				
+		.navs>* {
+		 text-align: left;
+		 padding: 0.25em 0;
+	      }
+	      
+	     	      
+	     .navs {padding: 0.5em 4% 0.25em 4%}
+
+	     #searchbox {margin-top: 0.5rem}
+	
+		}
+
+
+
+	@media only screen and (max-width: 450px) {
+		
+		.navs h6 {
+			margin-bottom: 0.75rem;
+			}
+					
+		}
+
+	  	  
+	</style>
+
+
+</div><!-- End row -->
 
 </body>
 

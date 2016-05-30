@@ -49,93 +49,193 @@
 
 
 
-<body class="padded-top padded-bottom">
-
-  <div class="row padded-top padded-bottom margin-bottom margin-top">
-
-   <div class="sixcolumn spacer"></div>
-   <div class="eightcolumn padded-top padded-bottom margin-bottom margin-top">
-	  
-      <h1>peter mckay</h1>
-
-      <ul class="navs1">
-
-        <a href="/about"><li>about</li></a>
-        <a href="/posts"><li>posts</li></a>        
-        <a href="mailto:peteramckay@gmail.com"><li>email</li></a>
-        <a href="/rss/everything.xml/"><li>rss</li></a>
-        <a href="//github.com/peteramckay"><li>github</li></a>
-        <a href="//twitter.com/peteramckay"><li>twitter</li></a>
-        <a href="//www.linkedin.com/pub/peter-mckay/29/a91/909"><li>linkedin</li></a>
-        <a href="//www.facebook.com/peter.mckay.52"><li>facebook</li></a>
-               <li id="searchbox"><iframe src="https://duckduckgo.com/search.html?width=175px&site=pmckay.com&prefill=search" style="overflow:hidden;margin:0;padding:0;width:233px;height:40px;" frameborder="0"></iframe></li>        
-      </ul>
-
-      <!--
-      <ul class="navs2">
-		  
-		  
-		Working on turning some of the options on the other list into buttons. These need more testing before they're turned on in production, though...
-		  
-        <li><a href="/rss/everything.xml/"><img src="img/rss.jpg" alt="RSS logo"></a></li>
-        <li><a href="//github.com/peteramckay" target="blank"><img src="img/octocat.png" alt="GitHub logo"></a></li>
-        <li><a href="//twitter.com/peteramckay" target="blank"><img src="img/twitter.jpg" alt="Twitter logo"></a></li>
-        <li><a href="//www.linkedin.com/pub/peter-mckay/29/a91/909" target="blank"><img src="img/linkedin.png" alt="LinkedIn logo"></a></li>
-        <li><a href="//www.facebook.com/peter.mckay.52" target="blank"><img src="img/fb.jpg" alt="Facebook logo"></a></li>
-        
-        
-        <li id="searchbox"><iframe src="https://duckduckgo.com/search.html?width=175px&site=pmckay.com&prefill=search" style="overflow:hidden;margin:0;padding:0;width:233px;height:40px;" frameborder="0"></iframe></li>
-      </ul>
-      -->
-      
-     </div><!-- End 8col container-->
-
-  </div> <!-- End row-->
+<body>
 
 
 
 
 
-
-
-  <style>
-          
-      html {
-		  text-align: center;
-		  padding: 3em 0;
-		  }
-      
-      .row {}
-	  
-	  h1 {}
-		  
-	  .navs1 {margin-top: 2em}
+ <div class="row navs">
 	
-	  .navs1 li, .navs2 li {}
+	<div>
+      <h6><a href="index.html">peter mckay</a></h6>
+      <ul class="sitelinks">
+         <a href="posts"><li>posts</li></a>
+         <!-- <a href="https://github.com/peteramckay/pmsite/commits/master"><li>revisions</li></a> -->
+         <a href="about"><li>about</li></a>
+      </ul><!-- End sitelinks -->
+	</div>
 
-      .navs1 {
-		   font-family:Roboto,sans-serif;
-		 }
+    
+    <div class="sociallinks">
+      <a href="mailto:peteramckay@gmail.com"><img src="img/gmail.png" alt="Gmail logo"></a>
+      <a href="rss/everything.xml/"><img src="img/rss.jpg" alt="RSS logo"></a>
+      <a href="//github.com/peteramckay" target="blank"><img src="img/octocat.png" alt="GitHub logo"></a>
+      <a href="//twitter.com/peteramckay" target="blank"><img src="img/twitter.jpg" alt="Twitter logo"></a>
+      <a href="//www.linkedin.com/pub/peter-mckay/29/a91/909" target="blank"><img src="img/linkedin.jpg" alt="LinkedIn"></a>
+      <a href="//www.facebook.com/peter.mckay.52" target="blank"><img src="img/fb.jpg" alt="facebook logo"></a>
+      <span id="searchbox"><iframe src="https://duckduckgo.com/search.html?width=175px&site=pmckay.com&prefill=search" style="overflow:hidden;margin:0;padding:0;width:233px;height:40px;" frameborder="0"></iframe></span>        
+    </div><!-- End sociallinks-->
+    
+</div>
 
 
-	  .navs1 li {
-        list-style: none;
-        padding: 0.5em 1em;
-        display: inline-block;
-       }
-       
-		   
-	  #searchbox {
-		  background: none;
+
+
+
+
+
+        
+        
+    <!-- Some custom inline styles   -->  
+        
+        
+    <style>
+
+
+      html {
+		 
+		  }
+
+	  .navs {
+		  padding: 0.25em 3%;		  
+          position: fixed;
+          top: 40%;
+		  border-bottom: 1px solid #d4d4d4;
+		  }
+	   
+	  .navs * {
+		  display: inline-block;
+		  list-style: none;
+		  color: black;
+		  font-family: 'Roboto', sans-serif;
+		  margin: 0;
 		  padding: 0;
-		  margin-top: 2em;
-		  display: block;
+		  }
+		  
+	  
+	  
+	  .navs li {
+		  list-style: none;
+		  display: inline-block;
+		  }
+	  
+	  .navs img {
+		  max-height: 30px;
+		  width: auto;
+		  display: inline-block;
+		  margin: 0;
+		  padding: 0;
 		  }
 
-      .navs2 img {
+	  .navs ul a:hover li {text-decoration: underline}
+
+	  .navs ul a:visited, .navs h6 a:visited {color:black;}
+	  
+	  .navs h6, .sitelinks li {
+		  margin-right: 1.25rem;
+		  margin-top: 0.25rem;
 		  }
-		  		 
-	</style>
+	  
+        .sociallinks {
+		  float: right;
+		  text-align: right;
+		  }
+
+
+         #searchbox {
+			 position: relative;
+			 top: 0.25rem;
+			 }
+
+		  
+   	   .sociallinks a:nth-child(6) {margin-right: 1.25rem}
+
+  
+       .navs li {
+		   }
+
+	
+	@media only screen and (max-width: 925px) {
+
+        .sociallinks {
+		  float: none;
+		  text-align: left;
+		  margin-top: 0.25rem;
+		  }
+
+	  .navs h6, .sitelinks li {
+		  margin-top: 0;
+		  position: relative;
+		  bottom: 0.25rem;
+		  }
+  
+       .navs>* {
+		 display: block;
+		 text-align: center;  
+		 float: none;
+		 margin: 0.25rem auto;
+		   }
+		   
+		}
+	
+
+	
+	
+	@media only screen and (max-width: 525px) {
+				
+		.navs>* {
+		 text-align: left;
+		 padding: 0.25em 0;
+	      }
+	      
+	     	      
+	     .navs {padding: 0.5em 4% 0.25em 4%}
+
+	     #searchbox {margin-top: 0.5rem}
+
+
+
+	  .navs {
+          top: 25%;
+		  }
+
+
+
+	
+		}
+
+
+
+	@media only screen and (max-width: 450px) {
+		
+		.navs h6 {
+			margin-bottom: 0.75rem;
+			}
+					
+		}
+
+
+    
+    </style>    
+    
+    
+    
+    
+
+  <!-- Optional scripts to run inline when page is done loading... -->
+
+  <script type="text/javascript">
+
+	$(document).ready(function(){}
+
+  </script>
+
+
+
+
+
+
 
 </body>
 
