@@ -50,9 +50,9 @@
 	<div>
       <h6><a href="index.html">peter mckay</a></h6>
       <ul class="sitelinks">
-         <a href="about"><li>about</li></a>
          <a href="posts"><li>posts</li></a>
-         <a href="https://github.com/peteramckay/pmsite/commits/master"><li>revisions</li></a>
+         <!-- <a href="https://github.com/peteramckay/pmsite/commits/master"><li>revisions</li></a> -->
+         <a href="about"><li>about</li></a>
       </ul><!-- End sitelinks -->
 	</div>
 
@@ -163,13 +163,13 @@
 
 	  .navs ul a:hover li {text-decoration: underline}
 
-	  .navs ul a:visited li {color:black}
+	  .navs ul a:visited, .navs h6 a:visited {color:black;}
 	  
 	  .navs h6, .sitelinks li {
 		  margin-right: 1.25rem;
-		  margin-top: 0.25rem
+		  margin-top: 0.25rem;
 		  }
-
+	  
         .sociallinks {
 		  float: right;
 		  text-align: right;
@@ -181,14 +181,15 @@
 			 top: 0.25rem;
 			 }
 
-
-
 		  
-	  .sociallinks a:nth-child(6) {margin-right: 1.25rem}
+   	   .sociallinks a:nth-child(6) {margin-right: 1.25rem}
 
+  
+       .navs li {
+		   }
 
 	
-	@media only screen and (max-width: 850px) {
+	@media only screen and (max-width: 925px) {
 
         .sociallinks {
 		  float: none;
@@ -201,10 +202,7 @@
 		  position: relative;
 		  bottom: 0.25rem;
 		  }
-
-        html {}
-
-      
+  
        .navs>* {
 		 display: block;
 		 text-align: center;  
@@ -212,29 +210,33 @@
 		 margin: 0.25rem auto;
 		   }
 		   
-	   .navs .sociallinks {
-
-		   }
-
 		}
 	
+
 	
 	
 	@media only screen and (max-width: 525px) {
-	
-		
+				
 		.navs>* {
 		 text-align: left;
 		 padding: 0.25em 0;
 	      }
 	      
-	     #searchbox {
-			 
-			 }
 	     	      
 	     .navs {padding: 0.5em 4% 0.25em 4%}
 
+	     #searchbox {margin-top: 0.5rem}
+	
+		}
+
+
+
+	@media only screen and (max-width: 450px) {
 		
+		.navs h6 {
+			margin-bottom: 0.75rem;
+			}
+					
 		}
 
 
