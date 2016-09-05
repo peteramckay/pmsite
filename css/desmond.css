@@ -1,139 +1,23 @@
 /*  
 
- Desmond
- Copyright (c) 2016 Peter McKay
- Free to use under MIT license.
+Desmond
+Copyright (c) 2016 Peter McKay
+Free to use under MIT license.
 
 
+Please note, this version of the Desmond theme is for development purposes only. I use it to work on changes for the public Desmond repo. It should also be handy if you want to add your own custom code for a particular project you're working on. 
+ 
+But for deployment purposes, to maintain compatibility with Google's AMP platform, any styles in this sheet should be copied and pasted inline in the desired HTML file inside the 'style amp-custom' element. I'd also recommend that you minimize the code before copying and pasting. - pm
 
 
   CONTENTS
-
-  - Grid
+  
   - Typography
+  - Layout
   - Images & Video Players
-
+  - Media Queries
 
 */
-
-
-
-
-
-
-
-
-/*--------------------------------------------------------------------------------------
-
-Grid
-
----------------------------------------------------------------------------------------*/
-
-html, body {
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-}
-
-html {
-  min-height: 100%; /* Assures page will fill the whole browser window */
-}
-
-.row {
-  box-sizing: border-box;
-  display: block;
-  width: 100%;
-  max-width: 4000px;
-  margin: 0 auto;
-  padding: 0 1.5%;
-  position: relative;
-  box-sizing: border-box;
-  overflow: auto; /* Helps prevent .row element from collapsing due to children's floats */
- }
-
-
-.onecolumn, .twocolumn, .threecolumn, .fourcolumn, .fivecolumn, .sixcolumn, .sevencolumn, .eightcolumn, .ninecolumn, .tencolumn, .elevencolumn, .twelvecolumn, .thirteencolumn, .fourteencolumn, .fifteencolumn, .sixteencolumn, .seventeencolumn, .eighteencolumn, .nineteencolumn, .twentycolumn  {
-  margin: 0;
-  padding:  0 1.5%; /* Creates internal gutters within content containers*/
-  position: relative;
-  box-sizing: border-box;
-  display: block;
-  float: left;
-}
-
-
-.onecolumn {width: 5%}
-
-.twocolumn {width: 10%}
-
-.threecolumn {width: 15%}
-
-.fourcolumn {width: 20%}
-
-.fivecolumn {width: 25%}
-
-.sixcolumn {width: 30%}
-
-.sevencolumn {width: 35%}
-
-.eightcolumn {width: 40%}
-
-.ninecolumn {width: 45%}
-
-.tencolumn {width: 50%}
-
-.elevencolumn {width: 55%}
-
-.twelvecolumn {width: 60%}
-
-.thirteencolumn {width: 65%}
-
-.fourteencolumn {width: 70%}
-
-.fifteencolumn {width: 75%}
-
-.sixteencolumn {width: 80%}
-
-.seventeencolumn {width: 85%}
-
-.eighteencolumn {width: 90%}
-
-.nineteencolumn {width: 95%}
-
-.twentycolumn {
-  width: 100%;
-  }
-
-
-
-
-
-@media only screen and (max-width: 700px) {
-  
-  .row {
-    display: block;
-    width: 100%;
-    }
-  
-  .onecolumn, .twocolumn, .threecolumn, .fourcolumn, .fivecolumn, .sixcolumn, .sevencolumn, .eightcolumn, .ninecolumn, .tencolumn, .elevencolumn, .twelvecolumn, .thirteencolumn, .fourteencolumn, .fifteencolumn, .sixteencolumn, .seventeencolumn, .eighteencolumn, .nineteencolumn, .twentycolumn {
-
-    float: none;
-    display: block;
-    width: 96%;
-    margin: 0 auto;
-       
-  } 
-  
-  
- } /*End 700px breakpoint*/
-
-
-
-
-
 
 
 
@@ -144,56 +28,63 @@ Typography
 --------------------------------------------------------------------------------------*/
 
 
-html { /*Setting some defaults */
+html {
   font-size: 16px;
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
-  font-style: normal;
-  line-height: 1.5
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+}
+
+html, body, img, amp-img, amp-video, video, p, h1, h2, h3, h4, h5, h6, ul, ol, .button, button, label, li, a, div, span {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a, a:visited {
   text-decoration: none;
-  color: #4A30F2;
-  outline: 0;
-  font-weight: 700;
-  font-style: normal;
+  color: #3B38A8;
+  font-weight: bold;
 }
 
 a:hover, a:focus {text-decoration: underline}
 
 p, ul, ol, .button, label {
   font-size: 1rem;
-  margin-bottom: 1rem;
-  padding: 0;  
 }
+
+p {margin-bottom: 1rem}
+
+ul, ol {margin-bottom: 1.5rem}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  margin: 0 0 0.5rem 0;
-  line-height:1.2
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  margin: 0 0 1.25rem 0;
+  line-height: 1.3;
 }
 
-h1 {font-size: 2.8rem}
+h1 {font-size: 2.7rem}
 
-h2 {font-size: 2.6rem}
+h2 {font-size: 2.4rem}
 
-h3 {font-size: 2.4rem}
+h3 {font-size: 2.1rem}
 
-h4 {font-size: 2.2rem}
+h4 {font-size: 1.8rem}
 
-h5 {font-size: 2rem}
+h5 {font-size: 1.5rem}
 
-h6 {font-size: 1.8rem}
-
+h6 {font-size: 1.2rem}
+  
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit}
 
-strong {
-  font-weight: 700;
-  font-weight: normal;
-}
+strong {font-weight: 700;}
 
 hr {
   display: block;
@@ -204,62 +95,76 @@ hr {
   clear: both;
 }
 
-
 ul {list-style: square inside}
 
 ol {list-style: decimal inside}
 
-/* A few optional classes to give extra flexibility regarding margin and padding for any element... */
-
-.padded-top {padding-top: 1rem}
-
-.padded-bottom {padding-bottom: 1rem}
-
-.margin-top {margin-top: 1rem}
-
-.margin-bottom {margin-top: 1rem}
-
-.no-margin {margin:0}
-
-.no-padding {padding:0}
-
-.spacer {padding: 0.25em} /* This class allows you to create a blank column to offset elements horizontally if need be. Use an empty element and apply a column-based class for whatever offset is desired. Padding prevents spacer from collapsing on itself. */
-
-@media only screen and (max-width: 700px) {
-  .spacer: {padding: 0} /* Turning spacer off, allowing it to collapse, at breakpoint where layout goes all-vertical. */
-}
-
-
+  
 /*--------------------------------------------------------------------------------------
 
-Images & Video Players
+Layout
 
 --------------------------------------------------------------------------------------*/
 
 
- 
-amp-img, amp-video, img, video, .video {
-  box-sizing: border-box;
+.navbar, .mainbar, .sidebar, .footer {
+  padding: 1.25rem 4%;
   display: inline-block;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-  overflow: hidden;
-  margin-bottom: 1rem;
+  float: left;
 }
-    
+
+.navbar {
+  background: #f7f7f7;
+  border-bottom: 1px solid #e3e3e3;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar span, .navbar h1, .navbar ul, .navbar li {
+  display: inline-block;
+  list-style: none;
+  padding: 0; 
+  margin: 0;
+}
+
+.navbar span, .navbar ul {
+  margin-bottom: 0.5rem;
+}
+
+.navbar span {
+  margin-top: 0.5rem;
+  margin-right: 3rem;  
+}
+
+.navbar li {margin-right: 1.5rem}
 
 
+.navbar li, .navbar li a {
+  font-weight: normal;
+  color: #5c5c5c;
+}
 
+.mainbar {
+  width: 62%;
+  border-right: 1px solid #e3e3e3;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
 
+.sidebar {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  width: 37%;
+}
 
-
-
-
-
-/* Add styles for more html elements...
-
+.footer {
+  width: 100%;
+  background: #363636;
+  color: #e3e3e3;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
 
 li {}
 article {} 
@@ -276,20 +181,7 @@ section {}
 blockquote {}
 table {}
 
-
-
-
-Core AMP elements...
-
-amp-ad {}
-amp-embed {}
-amp-pixel {}
-
-
-
-
-Extended AMP elements...
-
+amp-iframe {}
 amp-access {}
 amp-accordion {}
 amp-analytics {}
@@ -303,7 +195,6 @@ amp-dynamic-css-classes {}
 amp-facebook {}
 amp-fit-text {}
 amp-font {}
-amp-iframe {}
 amp-image-lightbox {}
 amp-instagram {}
 amp-install-serviceworker {}
@@ -319,10 +210,48 @@ amp-user-notification {}
 amp-vimeo {}
 amp-vine {}
 amp-youtube {}
+amp-ad {}
+amp-embed {}
+amp-pixel {}
 
 
 
+/*---------------------------------------------------------------------------
+
+Images & Video Players
+
+----------------------------------------------------------------------------*/
 
 
-*/
+amp-img, amp-youtube, amp-video, img, video, .video {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
 
+
+/*--------------------------------------------------------------------------------------
+
+Media Queries
+
+--------------------------------------------------------------------------------------*/
+
+
+@media (max-width:800px) {
+
+      .navbar, .mainbar, .sidebar, .footer {width: 100%;}
+
+      .mainbar {
+        border-right: none;
+        border-bottom: 1px solid #c7c7c7;
+       }
+
+      .mainbar, .sidebar {
+         padding-bottom: 2rem;
+       }
+
+}

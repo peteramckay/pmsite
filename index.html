@@ -1,44 +1,99 @@
 <!doctype html>
 
-<html lang='en'>
+<html amp lang="en">
 
 <head>
 
+   <title>Peter A. McKay</title>
+   
+   <link rel='canonical' href='//pmckay.com'>
+   <link href="img/beaker.png" rel="icon" type="image/x-icon" />
+   <link rel='dns-prefetch' href='//github.com/'>
+   <link rel='dns-prefetch' href='//twitter.com/'>
+   <link rel="dns-prefetch" href="//linkedin.com/">
+   <link rel='dns-prefetch' href='//facebook.com/'>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, minimum-scale=1,initial-scale=1"> <!-- Helps with responsive display -->
+   <meta charset="utf-8">    
+   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    
+   <!-- AMP CSS... -->
+   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>    
+        
+   <!-- Google Fonts typefaces... -->
+   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,700,700i|Merriweather:400,400i,700,700i" rel="stylesheet">
+    
+   <!-- Custom Desmond styles -->
+   <style amp-custom>
+     html{font-size:16px;font-family:'Merriweather Sans',sans-serif;font-weight:400;line-height:1.5}body,html{width:100%;min-height:100%}.button,a,amp-img,amp-video,body,button,div,h1,h2,h3,h4,h5,h6,html,img,label,li,ol,p,span,ul,video{max-width:100%;margin:0;padding:0;box-sizing:border-box}a,a:visited{text-decoration:none;color:#3B38A8;font-weight:700}a:focus,a:hover{text-decoration:underline}.button,label,ol,p,ul{font-size:1rem}p{margin-bottom:1rem}ol,ul{margin-bottom:1.5rem}h1,h2,h3,h4,h5,h6{font-family:Merriweather,serif;font-weight:700;margin:0 0 1.25rem;line-height:1.3}h1{font-size:2.7rem}h2{font-size:2.4rem}h3{font-size:2.1rem}h4{font-size:1.8rem}h5{font-size:1.5rem}h6{font-size:1.2rem}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}strong{font-weight:700}hr{display:block;border:0;height:1px;background:#BFBFBF;margin:1.5rem 0;clear:both}ul{list-style:square inside}ol{list-style:decimal inside}.footer,.mainbar,.navbar,.sidebar{padding:1.25rem 4%;display:inline-block;float:left}.navbar{background:#f7f7f7;border-bottom:1px solid #e3e3e3;width:100%;padding-top:.5rem;padding-bottom:.5rem}.navbar h1,.navbar li,.navbar span,.navbar ul{display:inline-block;list-style:none;padding:0;margin:0}.mainbar,.sidebar{padding-bottom:4rem}.footer,.mainbar,.sidebar{padding-top:2rem}.navbar span,.navbar ul{margin-bottom:.5rem}.navbar span{margin-top:.5rem;margin-right:3rem}.navbar li{margin-right:1.5rem}.navbar li,.navbar li a{font-weight:400;color:#5c5c5c}.mainbar{width:62%;border-right:1px solid #e3e3e3}.sidebar{width:37%}.footer{width:100%;background:#363636;color:#e3e3e3;padding-bottom:3rem}.video,amp-img,amp-video,amp-youtube,img,video{box-sizing:border-box;display:inline-block;width:100%;height:auto;object-fit:contain;overflow:hidden;margin-bottom:1.5rem}@media (max-width:800px){.footer,.mainbar,.navbar,.sidebar{width:100%}.mainbar{border-right:none;border-bottom:1px solid #c7c7c7}.mainbar,.sidebar{padding-bottom:2rem}}
+     
+     .palette {
+		 padding: 5rem;
+		 width: 100%;
+		 }
+		 
+     .palette amp-img {
+		 display: inline-block;
+		 width: 30%;
+		 max-width: 350px;
+		 float: left;
+		 margin-right: 5rem;
+		 } 
+     
+     .palette span {
+		 display: inline-block;
+		 width: 100%%;
+		 max-width: 600px;
+		 }    
+     
+     
+     
+     @media (max-width:1100px) {
+		 
+		 body {padding-left: 10rem;}
+		 
+		 }
+     
+     
+    @media (max-width:900px) {
+		
+		
+     body {padding: 0;}
 
-<!--
-  <title>Peter McKay</title>
+     .palette {
+		 
+		 padding: 3rem;
+		 }
+     
+     .palette amp-img {
+		 width: 100%;
+		 max-width: 100px;
+		 float: none;
+		 margin-right: 0;
+		 margin-bottom: 2rem;
+		 } 
+     
+     .palette span {
+		 display: inline-block;
+		 width: 100%;
+		 max-width: none;
+		 }    
 
-  <link rel='canonical' href='https://pmckay.com'>
-  <link rel='icon' type='image/png' href='img/hedcut.jpg' />
-  <link rel='dns-prefetch' href='//github.com/'>
-  <link rel='dns-prefetch' href='//facebook.com/'>
-  <link rel='dns-prefetch' href='//twitter.com/'>
-  <link rel="dns-prefetch" href="//linkedin.com/">
-  <!-- Link to Google Fonts typefaces... -->
-  
-  <!--
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:300,300italic,700,700italic|Roboto:400,400italic,700,700italic' rel='stylesheet'>    
-  <!-- A minified version of the Desmond theme... -->    
-  
-  <!--
-  <link href='css/desmond.min.css' rel='stylesheet'>  
 
-  <!-- Turning this off as we don't really need it for this page...
-    <script src="js/desmond.js"></script>
-  -->
-  
-    <!--
-  <script type='application/ld+json'>
+		
+		}
+     
+    </style>
+        
+    <script async src="https://cdn.ampproject.org/v0.js"></script>    
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    
+    <script type='application/ld+json'>
       {
         '@context': 'http://schema.org',
         '@type': 'Person',
-        'name': 'Peter McKay',
+        'name': 'Peter A. McKay',
         'birthDate': '1975-07-06',
         'birthPlace': 'Brooklyn, New York',
-        'homeLocation': 'Oakland, California',
         'alumniOf': 'Florida A&M University',
         'alumniOf': 'The Poynter Institute for Media Studies',
         'gender': 'male',
@@ -47,218 +102,36 @@
         'award': 'Pulitzer Prize',
         'award': 'Gerald Loeb Award',
         'award': 'Thelma Thurston Gorham Distinguished Alumnus Award',
-        'image': ['img/mug.jpg'],
+        'image': ['img/bwmug.jpg'],
       }
-  </script>
+    </script>
     
-
--->
-
-
+    <noscript>
+	  <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+	</noscript>
+	
 </head>
+    
+ 
 
 
 
 <body>
 
-
-<script>
- location.assign("https://twitter.com/peteramckay");
-</script>
- 
- 
- <!--
-
- <div class="row navs">
-	
-	<div>
-      <h6><a href="index.html">peter mckay</a></h6>
-      <ul class="sitelinks">
-         <a href="posts"><li>posts</li></a>
-         <!-- <a href="https://github.com/peteramckay/pmsite/commits/master"><li>revisions</li></a> -->
-         
-         <!--
-         
-         
-         <a href="about"><li>about</li></a>
-      </ul><!-- End sitelinks -->
-      
-      <!--
-      
-	</div>
-
+  <div class="palette">
     
-    <div class="sociallinks">
-      <a href="mailto:peteramckay@gmail.com"><img src="img/gmail.png" alt="Gmail logo"></a>
-      <a href="rss/everything.xml/"><img src="img/rss.jpg" alt="RSS logo"></a>
-      <a href="//github.com/peteramckay" target="blank"><img src="img/octocat.png" alt="GitHub logo"></a>
-      <a href="//twitter.com/peteramckay" target="blank"><img src="img/twitter.jpg" alt="Twitter logo"></a>
-      <a href="//www.linkedin.com/pub/peter-mckay/29/a91/909" target="blank"><img src="img/linkedin.jpg" alt="LinkedIn"></a>
-      <a href="//www.facebook.com/peter.mckay.52" target="blank"><img src="img/fb.jpg" alt="facebook logo"></a>
-      <span id="searchbox"><iframe src="https://duckduckgo.com/search.html?width=175px&site=pmckay.com&prefill=search" style="overflow:hidden;margin:0;padding:0;width:233px;height:40px;" frameborder="0"></iframe></span>        
-    </div><!-- End sociallinks-->
-    
-    
-    <!--
-</div>
+    <amp-img src="img/beaker.png" alt="beaker" width="1380" height="1850" layout="responsive"></amp-img>
+
+    <span><h1>Hello, world.</h1>
+    <p>I use this site as a place to experiment semi-publicly, mostly on projects related to digital media. That's a longtime passion for me as a sometime <a href="https://roscoelabs.com/about/team.html#pmbio" target="blank">startup guy</a> and former newspaper reporter.</p>
+    <p>These days, I still write <a href="http://www.poynter.org/2016/round-1-the-fbi-vs-apple-round-2-the-fbi-vs-journalists/400046/" target="blank">occasionally</a>, and I hack a bit as well. Among the things I've built are <a href="https://github.com/peteramckay/beams" target="blank">Beams</a>, a secure server framework that's running this site right now, and <a href="https://github.com/peteramckay/desmond" target="blank">Desmond</a>, a design theme built with Google's <a href="https://www.ampproject.org/">AMP</a> project. They're both open source, available via <a href="https://github.com/peteramckay" target="blank">my GitHub page</a>.</p>
+    <p>That's the best place to follow me for nitty-gritty on development stuff. I also recommend this site's <a href="rss/everything.xml">RSS feed</a>.</p>
+    <p>I'm on <a href="https://twitter.com/peteramckay" target="blank">Twitter</a>, <a href="https://www.facebook.com/peter.mckay.52" target="blank">Facebook</a>, <a href="https://www.linkedin.com/in/peteramckay" target="blank">LinkedIn</a>, and other networks as well, of course. Those are good for personal updates, links to news stories I'm reading, and rants about the Mets, if you're into that sort of thing.</p>
+    <p align="right"><em>- Peter A. McKay</em></p></span>
 
 
 
-
-
-
-
-        
-        
-    <!-- Some custom inline styles   -->  
-        <!--
-        
-    <style>
-
-
-      html {
-		 
-		  }
-
-	  .navs {
-		  padding: 0.25em 3%;		  
-          position: fixed;
-          top: 40%;
-		  border-bottom: 1px solid #d4d4d4;
-		  }
-	   
-	  .navs * {
-		  display: inline-block;
-		  list-style: none;
-		  color: black;
-		  font-family: 'Roboto', sans-serif;
-		  margin: 0;
-		  padding: 0;
-		  }
-		  
-	  
-	  
-	  .navs li {
-		  list-style: none;
-		  display: inline-block;
-		  }
-	  
-	  .navs img {
-		  max-height: 30px;
-		  width: auto;
-		  display: inline-block;
-		  margin: 0;
-		  padding: 0;
-		  }
-
-	  .navs ul a:hover li {text-decoration: underline}
-
-	  .navs ul a:visited, .navs h6 a:visited {color:black;}
-	  
-	  .navs h6, .sitelinks li {
-		  margin-right: 1.25rem;
-		  margin-top: 0.25rem;
-		  }
-	  
-        .sociallinks {
-		  float: right;
-		  text-align: right;
-		  }
-
-
-         #searchbox {
-			 position: relative;
-			 top: 0.25rem;
-			 }
-
-		  
-   	   .sociallinks a:nth-child(6) {margin-right: 1.25rem}
-
-  
-       .navs li {
-		   }
-
-	
-	@media only screen and (max-width: 925px) {
-
-        .sociallinks {
-		  float: none;
-		  text-align: left;
-		  margin-top: 0.25rem;
-		  }
-
-	  .navs h6, .sitelinks li {
-		  margin-top: 0;
-		  position: relative;
-		  bottom: 0.25rem;
-		  }
-  
-       .navs>* {
-		 display: block;
-		 text-align: center;  
-		 float: none;
-		 margin: 0.25rem auto;
-		   }
-		   
-		}
-	
-
-	
-	
-	@media only screen and (max-width: 525px) {
-				
-		.navs>* {
-		 text-align: left;
-		 padding: 0.25em 0;
-	      }
-	      
-	     	      
-	     .navs {padding: 0.5em 4% 0.25em 4%}
-
-	     #searchbox {margin-top: 0.5rem}
-
-
-
-	  .navs {
-          top: 25%;
-		  }
-
-
-
-	
-		}
-
-
-
-	@media only screen and (max-width: 450px) {
-		
-		.navs h6 {
-			margin-bottom: 0.75rem;
-			}
-					
-		}
-
-
-    
-    </style>    
-    
-    
-    
-    
-
-  <!-- Optional scripts to run inline when page is done loading... -->
-<!--
-  <script type="text/javascript">
-
-	$(document).ready(function(){}
-
-  </script>
-
-
-
--->
-
-
+  </div><!-- End palette-->
 
 </body>
 
