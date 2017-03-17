@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+
+
+
+  <title>The Roscoe Blog</title>
+  <link>//roscoelabs.com/blog</link>
+  <description>Official company blog for Roscoe Labs, including developer updates, product news, and other information.</description>
+
+
+  <item>
+    <title>Why we must encrypt all the news</title>
+    <link>//roscoelabs.com/blog/20160308-encrypt-the-news.html</link>
+    <description>The media industry should take Apple's battle with the FBI as a cue to take stronger precautions against a privacy crisis of our own. That starts with wider use of encryption to protect users and sources.</description>
+    <pubDate>Tuesday, 8 March 2016 16:30:00 GMT</pubDate>
+  </item>
+
+
+
+  <item>
+    <title>Bootstrapping Project Spectrum</title>
+    <link>//roscoelabs.com/blog/20151019-project-spectrum-crowdfunding.html</link>
+    <description>Today we're launching a crowdfunding campaign for Project Spectrum, our new effort to promote encrypted publishing of news.</description>
+    <pubDate>Monday, 19 October 2015 18:00:00 GMT</pubDate>
+  </item>
+
+
+  <item>
+    <title>Additional Benchmark Tests for Beams</title>
+    <link>//roscoelabs.com/blog/20150624-further-tests.html</link>
+    <description>We've done a second round of benchmark tests on our website, running Beams, to see how the framework performs.</description>
+    <pubDate>Thursday, 24 June 2015 16:35:00 GMT</pubDate>
+  </item>
+
+
+  <item>
+    <title>Much Faster Beams</title>
+    <link>//roscoelabs.com/blog/20150521-beams0.2.5.html</link>
+    <description>Beams v0.2.5, our latest update, ratchets up its server performance to go with the same default HTTPS support as before. It's truly the best of both worlds.</description>
+    <pubDate>Thursday, 21 May 2015 16:35:00 GMT</pubDate>
+  </item>
+
+
+  <item>
+    <title>An HTTPS version of Beams</title>
+    <link>//roscoelabs.com/blog/20150504-beams-https.html</link>
+    <description>Today we're releasing Beams v0.2.0, which we believe represents a major milestone for the framework. With this update, Beams now serves content via the HTTPS protocol, to encrypt data while it's in transit to and from the user.</description>
+    <pubDate>Monday, 4 May 2015 16:35:00 GMT</pubDate>
+  </item>
+
+
+  <item>
+    <title>Beams v0.1.2 is here</title>
+    <link>//roscoelabs.com/blog/20150220-beams0.1.2.html</link>
+    <description>Today we're pleased to announce the release of Beams v0.1.2, our free framework for building media websites. This beta release contains key improvements in three broad areas -- responsiveness, speed, and testing.</description>
+    <pubDate>Friday, 20 February 2015 16:35:00 GMT</pubDate>
+  </item>
+
+
+
+
+  <item>
+    <title>Bundling Beams</title>
+    <link>//roscoelabs.com/blog/20141203-bundling-beams.html</link>
+    <description>We're happy to announce that the v0.1.1 update of our Beams framework is now available for download.</description>
+    <pubDate>Wednesday, 3 December 2014 16:35:00 GMT</pubDate>
+  </item>
+
+
+
+  <item>
+    <title>Yes, we'll do HTTPS.</title>
+    <link>//roscoelabs.com/blog/20141118-yes-well-do-https.html</link>
+    <description>We're wholeheartedly embracing the NYT's recent challenge to convert all news sites by the end of 2015 to the secure HTTPS protocol for serving information to readers.</description>
+    <pubDate>Tuesday, 18 November 2014 16:35:00 GMT</pubDate>
+  </item>
+
+
+
+  <item>
+    <title>Rebooting Roscoe</title>
+    <link>//roscoelabs.com/blog/20140425-rebooting-roscoe.html</link>
+    <description>Big changes ahead for Roscoe Labs. We're sunsetting the Roscoe.TV web app, announcing a new flagship product on Monday, April 28, 2014.</description>
+    <pubDate>Friday, 25 April 2014 21:36:00 GMT</pubDate>
+  </item>
+
+
+  <item>
+    <title>Meet Beams, a better web framework</title>
+    <link>//roscoelabs.com/blog/20140428-meet-beams.html</link>
+    <description>Today we're elated to publicly release Beams, a free framework for building content-focused, media-rich websites. This version is just an alpha, but we believe it contains the right seeds to become a powerful, full-fledged solution for publishers of all sizes over time.</description>
+    <pubDate>Monday, 28 April 2014 7:01:00 GMT</pubDate>
+  </item>
+
+
+
+</channel>
+
+</rss>
