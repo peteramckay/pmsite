@@ -815,7 +815,6 @@ Plugins[] = SegmentEditor
 Plugins[] = Insights
 Plugins[] = Morpheus
 Plugins[] = Contents
-Plugins[] = TestRunner
 Plugins[] = BulkTracking
 Plugins[] = Resolution
 Plugins[] = DevicePlugins
