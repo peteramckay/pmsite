@@ -1,4 +1,4 @@
-/* compile_me_once=edfdcef2f6d100b5772b48b79ce1fce1 */
+/* compile_me_once=0be81ce92cb7bf8bca24fb3b79588f4e */
 /* Piwik CSS file is compiled with Less. You may be interested in writing a custom Theme for Piwik! */
 /*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
@@ -537,7 +537,7 @@ hr {
     content: "\e641";
 }
 .icon-play:before {
-    content: "\e643";
+    content: "\e038";
 }
 .icon-visitor-profile:before {
     content: "\e644";
@@ -616,6 +616,27 @@ hr {
 }
 .icon-archive:before {
     content: "\e95e";
+}
+.icon-fast-forward:before {
+    content: "\e01f";
+}
+.icon-fast-rewind:before {
+    content: "\e020";
+}
+.icon-pause:before {
+    content: "\e035";
+}
+.icon-replay:before {
+    content: "\e042";
+}
+.icon-skip-next:before {
+    content: "\e044";
+}
+.icon-skip-previous:before {
+    content: "\e045";
+}
+.icon-stop:before {
+    content: "\e047";
 }
 /*! jQuery UI - v1.10.1 - 2013-03-11
 * http://jqueryui.com
@@ -4592,7 +4613,7 @@ ul.ulGoalTopElements img {
 }
 
 div[data-report="Events.getAaction"].dataTableVizAllColumns .dataTableWrapper, div[data-report="Events.getName"].dataTableVizAllColumns .dataTableWrapper, div[data-report="Events.getCategory"].dataTableVizAllColumns .dataTableWrapper { width:1000px; }
-#widgetUserCountrygetRegion .dataTable .label img, #widgetUserCountrygetCountry .dataTable .label img, #widgetUserCountrygetCity .dataTable .label img {
+#widgetUserCountrygetRegion .dataTable .label > img, #widgetUserCountrygetCountry .dataTable .label > img, #widgetUserCountrygetCity .dataTable .label > img {
   border:1px solid lightgray;
   box-sizing:content-box;
   margin-top:-1px;
@@ -6487,7 +6508,7 @@ a.metric_category {
 }
 .marketplace .plugin .metadata li {
   text-overflow:ellipsis;
-  overflow-x:hidden;
+  overflow:hidden;
   white-space:nowrap;
   line-height:18px;
   font-size:13px;
