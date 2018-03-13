@@ -31,10 +31,11 @@ Suckas!
 }
 
 
-body {
-  background: none;
-  color: #f2f2f2;
-  }
+body {}
+
+
+
+/*
 
 html {
   background: url('../img/ubuntu.jpg');
@@ -43,6 +44,8 @@ html {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
+*/
 
 html, html * {
   font-family: 'Merriweather Sans Light', sans-serif;
@@ -75,7 +78,6 @@ a:hover {text-decoration: underline;}
 #homepage>img {
   width: auto;
   max-width: 275px;
-  background: #f2f2f2;
   padding: 2px;
   margin-bottom: 1.5rem;
   }
