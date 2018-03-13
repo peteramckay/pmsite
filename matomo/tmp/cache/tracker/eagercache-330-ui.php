@@ -1,5 +1,5 @@
 <?php return array (
-  'lifetime' => 1517742323,
+  'lifetime' => 1520868902,
   'data' => 
   array (
     'PluginCorePluginsAdminMetadata' => 
@@ -1949,65 +1949,6 @@
       '/var/www/matomo/plugins/MultiSites/Columns/Metrics/EcommerceOnlyEvolutionMetric.php' => 1517698081,
       '/var/www/matomo/plugins/VisitFrequency/Columns/Metrics/ReturningMetric.php' => 1517698084,
     ),
-    'PluginCorePluginsAdminMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\CorePluginsAdmin\\Menu',
-    'PluginCoreAdminHomeMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\CoreAdminHome\\Menu',
-    'PluginCoreHomeMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\CoreHome\\Menu',
-    'PluginWebsiteMeasurableMenuPiwik\\Plugin\\Menu' => false,
-    'PluginDiagnosticsMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\Diagnostics\\Menu',
-    'PluginCoreVisualizationsMenuPiwik\\Plugin\\Menu' => false,
-    'PluginProxyMenuPiwik\\Plugin\\Menu' => false,
-    'PluginAPIMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\API\\Menu',
-    'PluginExamplePluginMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\ExamplePlugin\\Menu',
-    'PluginWidgetizeMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\Widgetize\\Menu',
-    'PluginTransitionsMenuPiwik\\Plugin\\Menu' => false,
-    'PluginLanguagesManagerMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\LanguagesManager\\Menu',
-    'PluginActionsMenuPiwik\\Plugin\\Menu' => false,
-    'PluginDashboardMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\Dashboard\\Menu',
-    'PluginMultiSitesMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\MultiSites\\Menu',
-    'PluginReferrersMenuPiwik\\Plugin\\Menu' => false,
-    'PluginUserLanguageMenuPiwik\\Plugin\\Menu' => false,
-    'PluginDevicesDetectionMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\DevicesDetection\\Menu',
-    'PluginGoalsMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\Goals\\Menu',
-    'PluginEcommerceMenuPiwik\\Plugin\\Menu' => false,
-    'PluginSEOMenuPiwik\\Plugin\\Menu' => false,
-    'PluginEventsMenuPiwik\\Plugin\\Menu' => false,
-    'PluginUserCountryMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\UserCountry\\Menu',
-    'PluginVisitsSummaryMenuPiwik\\Plugin\\Menu' => false,
-    'PluginVisitFrequencyMenuPiwik\\Plugin\\Menu' => false,
-    'PluginVisitTimeMenuPiwik\\Plugin\\Menu' => false,
-    'PluginVisitorInterestMenuPiwik\\Plugin\\Menu' => false,
-    'PluginExampleAPIMenuPiwik\\Plugin\\Menu' => false,
-    'PluginRssWidgetMenuPiwik\\Plugin\\Menu' => false,
-    'PluginFeedbackMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\Feedback\\Menu',
-    'PluginMonologMenuPiwik\\Plugin\\Menu' => false,
-    'PluginLoginMenuPiwik\\Plugin\\Menu' => false,
-    'PluginUsersManagerMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\UsersManager\\Menu',
-    'PluginSitesManagerMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\SitesManager\\Menu',
-    'PluginInstallationMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\Installation\\Menu',
-    'PluginCoreUpdaterMenuPiwik\\Plugin\\Menu' => false,
-    'PluginCoreConsoleMenuPiwik\\Plugin\\Menu' => false,
-    'PluginScheduledReportsMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\ScheduledReports\\Menu',
-    'PluginUserCountryMapMenuPiwik\\Plugin\\Menu' => false,
-    'PluginLiveMenuPiwik\\Plugin\\Menu' => false,
-    'PluginCustomVariablesMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\CustomVariables\\Menu',
-    'PluginPrivacyManagerMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\PrivacyManager\\Menu',
-    'PluginImageGraphMenuPiwik\\Plugin\\Menu' => false,
-    'PluginAnnotationsMenuPiwik\\Plugin\\Menu' => false,
-    'PluginMobileMessagingMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\MobileMessaging\\Menu',
-    'PluginOverlayMenuPiwik\\Plugin\\Menu' => false,
-    'PluginSegmentEditorMenuPiwik\\Plugin\\Menu' => false,
-    'PluginInsightsMenuPiwik\\Plugin\\Menu' => false,
-    'PluginMorpheusMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\Morpheus\\Menu',
-    'PluginContentsMenuPiwik\\Plugin\\Menu' => false,
-    'PluginBulkTrackingMenuPiwik\\Plugin\\Menu' => false,
-    'PluginResolutionMenuPiwik\\Plugin\\Menu' => false,
-    'PluginDevicePluginsMenuPiwik\\Plugin\\Menu' => false,
-    'PluginHeartbeatMenuPiwik\\Plugin\\Menu' => false,
-    'PluginIntlMenuPiwik\\Plugin\\Menu' => false,
-    'PluginMarketplaceMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\Marketplace\\Menu',
-    'PluginProfessionalServicesMenuPiwik\\Plugin\\Menu' => false,
-    'PluginUserIdMenuPiwik\\Plugin\\Menu' => false,
-    'PluginCustomPiwikJsMenuPiwik\\Plugin\\Menu' => false,
     'PluginCorePluginsAdminReleaseChannelPiwik\\UpdateCheck\\ReleaseChannel' => 
     array (
     ),
@@ -2189,813 +2130,252 @@
     'PluginCustomPiwikJsReleaseChannelPiwik\\UpdateCheck\\ReleaseChannel' => 
     array (
     ),
-    'DeviceDetector-391regexes-os' => 
+    'PluginCorePluginsAdminRendererPiwik\\API\\ApiRenderer' => 
     array (
-      0 => 
-      array (
-        'regex' => 'Tizen[ /]?(\\d+[\\.\\d]+)?',
-        'name' => 'Tizen',
-        'version' => '$1',
-      ),
-      1 => 
-      array (
-        'regex' => 'Sailfish|Jolla',
-        'name' => 'Sailfish OS',
-        'version' => '',
-      ),
-      2 => 
-      array (
-        'regex' => '(?:Ali)?YunOS[ /]?(\\d+[\\.\\d]+)?',
-        'name' => 'YunOS',
-        'version' => '$1',
-      ),
-      3 => 
-      array (
-        'regex' => 'Windows Phone (?:OS)?[ ]?(\\d+[\\.\\d]+)',
-        'name' => 'Windows Phone',
-        'version' => '$1',
-      ),
-      4 => 
-      array (
-        'regex' => 'XBLWP7|Windows Phone',
-        'name' => 'Windows Phone',
-        'version' => '',
-      ),
-      5 => 
-      array (
-        'regex' => 'Windows CE(?: (\\d+[\\.\\d]+))?',
-        'name' => 'Windows CE',
-        'version' => '$1',
-      ),
-      6 => 
-      array (
-        'regex' => '(?:IEMobile|Windows ?Mobile)(?: (\\d+[\\.\\d]+))?',
-        'name' => 'Windows Mobile',
-        'version' => '$1',
-      ),
-      7 => 
-      array (
-        'regex' => 'Windows NT 6.2; ARM;',
-        'name' => 'Windows RT',
-        'version' => '',
-      ),
-      8 => 
-      array (
-        'regex' => 'Windows NT 6.3; ARM;',
-        'name' => 'Windows RT',
-        'version' => '8.1',
-      ),
-      9 => 
-      array (
-        'regex' => 'RazoDroiD(?: v(\\d+[\\.\\d]*))?',
-        'name' => 'RazoDroiD',
-        'version' => '$1',
-      ),
-      10 => 
-      array (
-        'regex' => 'MildWild(?: CM-(\\d+[\\.\\d]*))?',
-        'name' => 'MildWild',
-        'version' => '$1',
-      ),
-      11 => 
-      array (
-        'regex' => 'CyanogenMod(?:[\\-/](?:CM)?(\\d+[\\.\\d]*))?',
-        'name' => 'CyanogenMod',
-        'version' => '$1',
-      ),
-      12 => 
-      array (
-        'regex' => '(?:.*_)?MocorDroid(?:(\\d+[\\.\\d]*))?',
-        'name' => 'MocorDroid',
-        'version' => '$1',
-      ),
-      13 => 
-      array (
-        'regex' => '(?:(?:Orca-)?Android|Adr)[ /](?:[a-z]+ )?(\\d+[\\.\\d]+)',
-        'name' => 'Android',
-        'version' => '$1',
-      ),
-      14 => 
-      array (
-        'regex' => 'Android|Silk-Accelerated=[a-z]{4,5}',
-        'name' => 'Android',
-        'version' => '',
-      ),
-      15 => 
-      array (
-        'regex' => 'BeyondPod|AntennaPod|Podkicker|DoggCatcher|Player FM|okhttp|Podcatcher Deluxe',
-        'name' => 'Android',
-        'version' => '',
-      ),
-      16 => 
-      array (
-        'regex' => 'AmigaOS[ ]?(\\d+[\\.\\d]+)',
-        'name' => 'AmigaOS',
-        'version' => '$1',
-      ),
-      17 => 
-      array (
-        'regex' => 'AmigaOS|AmigaVoyager|Amiga-AWeb',
-        'name' => 'AmigaOS',
-        'version' => '',
-      ),
-      18 => 
-      array (
-        'regex' => 'ThreadX(?:/(\\d+[\\.\\d]*))?',
-        'name' => 'ThreadX',
-        'version' => '$1',
-      ),
-      19 => 
-      array (
-        'regex' => 'Nucleus(?:(?: |/v?)(\\d+[\\.\\d]*))?',
-        'name' => 'MTK / Nucleus',
-        'version' => '$1',
-      ),
-      20 => 
-      array (
-        'regex' => 'MTK(?:(?: |/v?)(\\d+[\\.\\d]*))?',
-        'name' => 'MTK / Nucleus',
-        'version' => '$1',
-      ),
-      21 => 
-      array (
-        'regex' => 'Maemo',
-        'name' => 'Maemo',
-        'version' => '',
-      ),
-      22 => 
-      array (
-        'regex' => 'Arch ?Linux(?:[ /\\-](\\d+[\\.\\d]+))?',
-        'name' => 'Arch Linux',
-        'version' => '$1',
-      ),
-      23 => 
-      array (
-        'regex' => 'VectorLinux(?: package)?(?:[ /\\-](\\d+[\\.\\d]+))?',
-        'name' => 'VectorLinux',
-        'version' => '$1',
-      ),
-      24 => 
-      array (
-        'regex' => 'Linux; .*((?:Debian|Knoppix|Mint|Ubuntu|Kubuntu|Xubuntu|Lubuntu|Fedora|Red Hat|Mandriva|Gentoo|Sabayon|Slackware|SUSE|CentOS|BackTrack))[ /](\\d+[\\.\\d]+)',
-        'name' => '$1',
-        'version' => '$2',
-      ),
-      25 => 
-      array (
-        'regex' => '(Debian|Knoppix|Mint|Ubuntu|Kubuntu|Xubuntu|Lubuntu|Fedora|Red Hat|Mandriva|Gentoo|Sabayon|Slackware|SUSE|CentOS|BackTrack)(?:(?: Enterprise)? Linux)?(?:[ /\\-](\\d+[\\.\\d]+))?',
-        'name' => '$1',
-        'version' => '$2',
-      ),
-      26 => 
-      array (
-        'regex' => '(?:webOS|Palm webOS)(?:/(\\d+[\\.\\d]+))?',
-        'name' => 'webOS',
-        'version' => '$1',
-      ),
-      27 => 
-      array (
-        'regex' => '(?:PalmOS|Palm OS)(?:[/ ](\\d+[\\.\\d]+))?|Palm',
-        'name' => 'palmOS',
-        'version' => '$1',
-      ),
-      28 => 
-      array (
-        'regex' => 'Xiino(?:.*v\\. (\\d+[\\.\\d]+))?',
-        'name' => 'palmOS',
-        'version' => '$1',
-      ),
-      29 => 
-      array (
-        'regex' => 'MorphOS(?:[ /](\\d+[\\.\\d]+))?',
-        'name' => 'MorphOS',
-        'version' => '$1',
-      ),
-      30 => 
-      array (
-        'regex' => 'CYGWIN_NT-10.0|Windows NT 10.0|Windows 10',
-        'name' => 'Windows',
-        'version' => '10',
-      ),
-      31 => 
-      array (
-        'regex' => 'CYGWIN_NT-6.4|Windows NT 6.4|Windows 10',
-        'name' => 'Windows',
-        'version' => '10',
-      ),
-      32 => 
-      array (
-        'regex' => 'CYGWIN_NT-6.3|Windows NT 6.3|Windows 8.1',
-        'name' => 'Windows',
-        'version' => '8.1',
-      ),
-      33 => 
-      array (
-        'regex' => 'CYGWIN_NT-6.2|Windows NT 6.2|Windows 8',
-        'name' => 'Windows',
-        'version' => '8',
-      ),
-      34 => 
-      array (
-        'regex' => 'CYGWIN_NT-6.1|Windows NT 6.1|Windows 7',
-        'name' => 'Windows',
-        'version' => '7',
-      ),
-      35 => 
-      array (
-        'regex' => 'CYGWIN_NT-6.0|Windows NT 6.0|Windows Vista',
-        'name' => 'Windows',
-        'version' => 'Vista',
-      ),
-      36 => 
-      array (
-        'regex' => 'CYGWIN_NT-5.2|Windows NT 5.2|Windows Server 2003 / XP x64',
-        'name' => 'Windows',
-        'version' => 'Server 2003',
-      ),
-      37 => 
-      array (
-        'regex' => 'CYGWIN_NT-5.1|Windows NT 5.1|Windows XP',
-        'name' => 'Windows',
-        'version' => 'XP',
-      ),
-      38 => 
-      array (
-        'regex' => 'CYGWIN_NT-5.0|Windows NT 5.0|Windows 2000',
-        'name' => 'Windows',
-        'version' => '2000',
-      ),
-      39 => 
-      array (
-        'regex' => 'CYGWIN_NT-4.0|Windows NT 4.0|WinNT|Windows NT',
-        'name' => 'Windows',
-        'version' => 'NT',
-      ),
-      40 => 
-      array (
-        'regex' => 'CYGWIN_ME-4.90|Win 9x 4.90|Windows ME',
-        'name' => 'Windows',
-        'version' => 'ME',
-      ),
-      41 => 
-      array (
-        'regex' => 'CYGWIN_98-4.10|Win98|Windows 98',
-        'name' => 'Windows',
-        'version' => '98',
-      ),
-      42 => 
-      array (
-        'regex' => 'CYGWIN_95-4.0|Win32|Win95|Windows 95|Windows_95',
-        'name' => 'Windows',
-        'version' => '95',
-      ),
-      43 => 
-      array (
-        'regex' => 'Windows 3.1',
-        'name' => 'Windows',
-        'version' => '3.1',
-      ),
-      44 => 
-      array (
-        'regex' => 'Windows',
-        'name' => 'Windows',
-        'version' => '',
-      ),
-      45 => 
-      array (
-        'regex' => 'CFNetwork/758\\.4\\.3',
-        'name' => 'iOS',
-        'version' => '9.3.2',
-      ),
-      46 => 
-      array (
-        'regex' => 'CFNetwork/758\\.3\\.15',
-        'name' => 'iOS',
-        'version' => '9.3',
-      ),
-      47 => 
-      array (
-        'regex' => 'CFNetwork/758\\.2\\.[78]',
-        'name' => 'iOS',
-        'version' => '9.2',
-      ),
-      48 => 
-      array (
-        'regex' => 'CFNetwork/758\\.1\\.6',
-        'name' => 'iOS',
-        'version' => '9.1',
-      ),
-      49 => 
-      array (
-        'regex' => 'CFNetwork/758\\.0\\.2',
-        'name' => 'iOS',
-        'version' => '9.0',
-      ),
-      50 => 
-      array (
-        'regex' => 'CFNetwork/711\\.5\\.6',
-        'name' => 'iOS',
-        'version' => '8.4.1',
-      ),
-      51 => 
-      array (
-        'regex' => 'CFNetwork/711\\.4\\.6',
-        'name' => 'iOS',
-        'version' => '8.4',
-      ),
-      52 => 
-      array (
-        'regex' => 'CFNetwork/711\\.3\\.18',
-        'name' => 'iOS',
-        'version' => '8.3',
-      ),
-      53 => 
-      array (
-        'regex' => 'CFNetwork/711\\.2\\.23',
-        'name' => 'iOS',
-        'version' => '8.2',
-      ),
-      54 => 
-      array (
-        'regex' => 'CFNetwork/711\\.1\\.1[26]',
-        'name' => 'iOS',
-        'version' => '8.1',
-      ),
-      55 => 
-      array (
-        'regex' => 'CFNetwork/711\\.0\\.6',
-        'name' => 'iOS',
-        'version' => '8.0',
-      ),
-      56 => 
-      array (
-        'regex' => 'CFNetwork/672\\.1',
-        'name' => 'iOS',
-        'version' => '7.1',
-      ),
-      57 => 
-      array (
-        'regex' => 'CFNetwork/672\\.0',
-        'name' => 'iOS',
-        'version' => '7.0',
-      ),
-      58 => 
-      array (
-        'regex' => 'CFNetwork/609\\.1',
-        'name' => 'iOS',
-        'version' => '6.1',
-      ),
-      59 => 
-      array (
-        'regex' => 'CFNetwork/60[29]',
-        'name' => 'iOS',
-        'version' => '6.0',
-      ),
-      60 => 
-      array (
-        'regex' => 'CFNetwork/548\\.1',
-        'name' => 'iOS',
-        'version' => '5.1',
-      ),
-      61 => 
-      array (
-        'regex' => 'CFNetwork/548\\.0',
-        'name' => 'iOS',
-        'version' => '5.0',
-      ),
-      62 => 
-      array (
-        'regex' => 'CFNetwork/485\\.13',
-        'name' => 'iOS',
-        'version' => '4.3',
-      ),
-      63 => 
-      array (
-        'regex' => 'CFNetwork/485\\.12',
-        'name' => 'iOS',
-        'version' => '4.2',
-      ),
-      64 => 
-      array (
-        'regex' => 'CFNetwork/485\\.10',
-        'name' => 'iOS',
-        'version' => '4.1',
-      ),
-      65 => 
-      array (
-        'regex' => 'CFNetwork/485\\.2',
-        'name' => 'iOS',
-        'version' => '4.0',
-      ),
-      66 => 
-      array (
-        'regex' => 'CFNetwork/467\\.12',
-        'name' => 'iOS',
-        'version' => '3.2',
-      ),
-      67 => 
-      array (
-        'regex' => 'CFNetwork/459',
-        'name' => 'iOS',
-        'version' => '3.1',
-      ),
-      68 => 
-      array (
-        'regex' => '(?:CPU OS|iPh(?:one)?[ _]OS|iOS)[ _/](\\d+(?:[_\\.]\\d+)*)',
-        'name' => 'iOS',
-        'version' => '$1',
-      ),
-      69 => 
-      array (
-        'regex' => '(?:Apple-)?(?:iPhone|iPad|iPod)(?:.*Mac OS X.*Version/(\\d+\\.\\d+)|; Opera)?',
-        'name' => 'iOS',
-        'version' => '$1',
-      ),
-      70 => 
-      array (
-        'regex' => 'Podcasts/(?:[\\d\\.]+)|Instacast(?:HD)?/(?:\\d\\.[\\d\\.abc]+)|Pocket Casts, iOS|Overcast|Castro|Podcat|i[cC]atcher',
-        'name' => 'iOS',
-        'version' => '',
-      ),
-      71 => 
-      array (
-        'regex' => 'iTunes-(iPod|iPad|iPhone)/(?:[\\d\\.]+)',
-        'name' => 'iOS',
-        'version' => '',
-      ),
-      72 => 
-      array (
-        'regex' => 'CFNetwork/760',
-        'name' => 'Mac',
-        'version' => '10.11',
-      ),
-      73 => 
-      array (
-        'regex' => 'CFNetwork/720',
-        'name' => 'Mac',
-        'version' => '10.10',
-      ),
-      74 => 
-      array (
-        'regex' => 'CFNetwork/673',
-        'name' => 'Mac',
-        'version' => '10.9',
-      ),
-      75 => 
-      array (
-        'regex' => 'CFNetwork/596',
-        'name' => 'Mac',
-        'version' => '10.8',
-      ),
-      76 => 
-      array (
-        'regex' => 'CFNetwork/520',
-        'name' => 'Mac',
-        'version' => '10.7',
-      ),
-      77 => 
-      array (
-        'regex' => 'CFNetwork/454',
-        'name' => 'Mac',
-        'version' => '10.6',
-      ),
-      78 => 
-      array (
-        'regex' => 'CFNetwork/(?:438|422|339|330|221|220|217)',
-        'name' => 'Mac',
-        'version' => '10.5',
-      ),
-      79 => 
-      array (
-        'regex' => 'CFNetwork/12[89]',
-        'name' => 'Mac',
-        'version' => '10.4',
-      ),
-      80 => 
-      array (
-        'regex' => 'CFNetwork/1\\.2',
-        'name' => 'Mac',
-        'version' => '10.3',
-      ),
-      81 => 
-      array (
-        'regex' => 'CFNetwork/1\\.1',
-        'name' => 'Mac',
-        'version' => '10.2',
-      ),
-      82 => 
-      array (
-        'regex' => 'Mac OS X(?: (?:Version )?(\\d+(?:[_\\.]\\d+)+))?',
-        'name' => 'Mac',
-        'version' => '$1',
-      ),
-      83 => 
-      array (
-        'regex' => 'Mac (\\d+(?:[_\\.]\\d+)+)',
-        'name' => 'Mac',
-        'version' => '$1',
-      ),
-      84 => 
-      array (
-        'regex' => 'Darwin|Macintosh|Mac_PowerPC|PPC|Mac PowerPC|iMac|MacBook',
-        'name' => 'Mac',
-        'version' => '',
-      ),
-      85 => 
-      array (
-        'regex' => 'CrOS [a-z0-9_]+ .* Chrome/(\\d+[\\.\\d]+)',
-        'name' => 'Chrome OS',
-        'version' => '$1',
-      ),
-      86 => 
-      array (
-        'regex' => '(?:BB10;.+Version|Black[Bb]erry[0-9a-z]+|Black[Bb]erry.+Version)/(\\d+[\\.\\d]+)',
-        'name' => 'BlackBerry OS',
-        'version' => '$1',
-      ),
-      87 => 
-      array (
-        'regex' => 'RIM Tablet OS (\\d+[\\.\\d]+)',
-        'name' => 'BlackBerry Tablet OS',
-        'version' => '$1',
-      ),
-      88 => 
-      array (
-        'regex' => 'RIM Tablet OS|QNX|Play[Bb]ook',
-        'name' => 'BlackBerry Tablet OS',
-        'version' => '',
-      ),
-      89 => 
-      array (
-        'regex' => 'BlackBerry',
-        'name' => 'BlackBerry OS',
-        'version' => '',
-      ),
-      90 => 
-      array (
-        'regex' => 'bPod',
-        'name' => 'BlackBerry OS',
-        'version' => '',
-      ),
-      91 => 
-      array (
-        'regex' => 'Haiku',
-        'name' => 'Haiku OS',
-        'version' => '',
-      ),
-      92 => 
-      array (
-        'regex' => 'BeOS',
-        'name' => 'BeOS',
-        'version' => '',
-      ),
-      93 => 
-      array (
-        'regex' => 'Symbian/3.+NokiaBrowser/7\\.3',
-        'name' => 'Symbian^3',
-        'version' => 'Anna',
-      ),
-      94 => 
-      array (
-        'regex' => 'Symbian/3.+NokiaBrowser/7\\.4',
-        'name' => 'Symbian^3',
-        'version' => 'Belle',
-      ),
-      95 => 
-      array (
-        'regex' => 'Symbian/3',
-        'name' => 'Symbian^3',
-        'version' => '',
-      ),
-      96 => 
-      array (
-        'regex' => '(?:Series ?60|SymbOS|S60)(?:[ /]?(\\d+[\\.\\d]+|V\\d+))?',
-        'name' => 'Symbian OS Series 60',
-        'version' => '$1',
-      ),
-      97 => 
-      array (
-        'regex' => 'Series40',
-        'name' => 'Symbian OS Series 40',
-        'version' => '',
-      ),
-      98 => 
-      array (
-        'regex' => 'SymbianOS/(\\d+[\\.\\d]+)',
-        'name' => 'Symbian OS',
-        'version' => '$1',
-      ),
-      99 => 
-      array (
-        'regex' => 'MeeGo|WeTab',
-        'name' => 'MeeGo',
-        'version' => '',
-      ),
-      100 => 
-      array (
-        'regex' => 'Symbian(?: OS)?|SymbOS',
-        'name' => 'Symbian OS',
-        'version' => '',
-      ),
-      101 => 
-      array (
-        'regex' => 'Nokia',
-        'name' => 'Symbian',
-        'version' => '',
-      ),
-      102 => 
-      array (
-        'regex' => '(?:Mobile|Tablet);.+Firefox/\\d+\\.\\d+',
-        'name' => 'Firefox OS',
-        'version' => '',
-      ),
-      103 => 
-      array (
-        'regex' => 'RISC OS(?:-NC)?(?:[ /](\\d+[\\.\\d]+))?',
-        'name' => 'RISC OS',
-        'version' => '$1',
-      ),
-      104 => 
-      array (
-        'regex' => 'Inferno(?:[ /](\\d+[\\.\\d]+))?',
-        'name' => 'Inferno',
-        'version' => '$1',
-      ),
-      105 => 
-      array (
-        'regex' => 'bada(?:[ /](\\d+[\\.\\d]+))',
-        'name' => 'Bada',
-        'version' => '$1',
-      ),
-      106 => 
-      array (
-        'regex' => 'bada',
-        'name' => 'Bada',
-        'version' => '',
-      ),
-      107 => 
-      array (
-        'regex' => '(?:Brew MP|BREW|BMP)(?:[ /](\\d+[\\.\\d]+))',
-        'name' => 'Brew',
-        'version' => '$1',
-      ),
-      108 => 
-      array (
-        'regex' => 'Brew MP|BREW|BMP',
-        'name' => 'Brew',
-        'version' => '',
-      ),
-      109 => 
-      array (
-        'regex' => 'GoogleTV(?:[ /](\\d+[\\.\\d]+))?',
-        'name' => 'Google TV',
-        'version' => '$1',
-      ),
-      110 => 
-      array (
-        'regex' => 'AppleTV(?:/?(\\d+[\\.\\d]+))?',
-        'name' => 'Apple TV',
-        'version' => '$1',
-      ),
-      111 => 
-      array (
-        'regex' => 'WebTV/(\\d+[\\.\\d]+)',
-        'name' => 'WebTV',
-        'version' => '$1',
-      ),
-      112 => 
-      array (
-        'regex' => 'RemixOS 5.1.1',
-        'name' => 'Remix OS',
-        'version' => '1',
-      ),
-      113 => 
-      array (
-        'regex' => 'RemixOS 6.0',
-        'name' => 'Remix OS',
-        'version' => '2',
-      ),
-      114 => 
-      array (
-        'regex' => 'RemixOS',
-        'name' => 'Remix OS',
-        'version' => '',
-      ),
-      115 => 
-      array (
-        'regex' => '(?:SunOS|Solaris)(?:[/ ](\\d+[\\.\\d]+))?',
-        'name' => 'Solaris',
-        'version' => '$1',
-      ),
-      116 => 
-      array (
-        'regex' => 'AIX(?:[/ ]?(\\d+[\\.\\d]+))?',
-        'name' => 'AIX',
-        'version' => '$1',
-      ),
-      117 => 
-      array (
-        'regex' => 'HP-UX(?:[/ ]?(\\d+[\\.\\d]+))?',
-        'name' => 'HP-UX',
-        'version' => '$1',
-      ),
-      118 => 
-      array (
-        'regex' => 'FreeBSD(?:[/ ]?(\\d+[\\.\\d]+))?',
-        'name' => 'FreeBSD',
-        'version' => '$1',
-      ),
-      119 => 
-      array (
-        'regex' => 'NetBSD(?:[/ ]?(\\d+[\\.\\d]+))?',
-        'name' => 'NetBSD',
-        'version' => '$1',
-      ),
-      120 => 
-      array (
-        'regex' => 'OpenBSD(?:[/ ]?(\\d+[\\.\\d]+))?',
-        'name' => 'OpenBSD',
-        'version' => '$1',
-      ),
-      121 => 
-      array (
-        'regex' => 'DragonFly(?:[/ ]?(\\d+[\\.\\d]+))?',
-        'name' => 'DragonFly',
-        'version' => '$1',
-      ),
-      122 => 
-      array (
-        'regex' => 'Syllable(?:[/ ]?(\\d+[\\.\\d]+))?',
-        'name' => 'Syllable',
-        'version' => '$1',
-      ),
-      123 => 
-      array (
-        'regex' => 'IRIX(?:;64)?(?:[/ ]?(\\d+[\\.\\d]+))',
-        'name' => 'IRIX',
-        'version' => '$1',
-      ),
-      124 => 
-      array (
-        'regex' => 'OSF1(?:[/ ]?v?(\\d+[\\.\\d]+))?',
-        'name' => 'OSF1',
-        'version' => '$1',
-      ),
-      125 => 
-      array (
-        'regex' => 'Nintendo Wii',
-        'name' => 'Nintendo',
-        'version' => 'Wii',
-      ),
-      126 => 
-      array (
-        'regex' => 'PlayStation ?([3|4])',
-        'name' => 'PlayStation',
-        'version' => '$1',
-      ),
-      127 => 
-      array (
-        'regex' => 'Xbox|KIN\\.(?:One|Two)',
-        'name' => 'Xbox',
-        'version' => '360',
-      ),
-      128 => 
-      array (
-        'regex' => 'Nitro|Nintendo ([3]?DS[i]?)',
-        'name' => 'Nintendo Mobile',
-        'version' => '$1',
-      ),
-      129 => 
-      array (
-        'regex' => 'PlayStation ((?:Portable|Vita))',
-        'name' => 'PlayStation Portable',
-        'version' => '$1',
-      ),
-      130 => 
-      array (
-        'regex' => 'OS/2',
-        'name' => 'OS/2',
-        'version' => '',
-      ),
-      131 => 
-      array (
-        'regex' => 'Linux(?:OS)?[^a-z]',
-        'name' => 'GNU/Linux',
-        'version' => '',
-      ),
     ),
-    'Marketplace_ExpiredPlugins' => 
+    'PluginCoreAdminHomeRendererPiwik\\API\\ApiRenderer' => 
     array (
-      'exceeded' => 
-      array (
-      ),
-      'expired' => 
-      array (
-      ),
-      'noLicense' => 
-      array (
-      ),
     ),
+    'PluginCoreHomeRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginWebsiteMeasurableRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginDiagnosticsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginCoreVisualizationsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginProxyRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginAPIRendererPiwik\\API\\ApiRenderer' => 
+    array (
+      '/var/www/matomo/plugins/API/Renderer/Console.php' => 'Piwik\\Plugins\\API\\Renderer\\Console',
+      '/var/www/matomo/plugins/API/Renderer/Csv.php' => 'Piwik\\Plugins\\API\\Renderer\\Csv',
+      '/var/www/matomo/plugins/API/Renderer/Html.php' => 'Piwik\\Plugins\\API\\Renderer\\Html',
+      '/var/www/matomo/plugins/API/Renderer/Json2.php' => 'Piwik\\Plugins\\API\\Renderer\\Json2',
+      '/var/www/matomo/plugins/API/Renderer/Json.php' => 'Piwik\\Plugins\\API\\Renderer\\Json',
+      '/var/www/matomo/plugins/API/Renderer/Original.php' => 'Piwik\\Plugins\\API\\Renderer\\Original',
+      '/var/www/matomo/plugins/API/Renderer/Php.php' => 'Piwik\\Plugins\\API\\Renderer\\Php',
+      '/var/www/matomo/plugins/API/Renderer/Rss.php' => 'Piwik\\Plugins\\API\\Renderer\\Rss',
+      '/var/www/matomo/plugins/API/Renderer/Tsv.php' => 'Piwik\\Plugins\\API\\Renderer\\Tsv',
+      '/var/www/matomo/plugins/API/Renderer/Xml.php' => 'Piwik\\Plugins\\API\\Renderer\\Xml',
+    ),
+    'PluginExamplePluginRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginWidgetizeRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginTransitionsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginLanguagesManagerRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginActionsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginDashboardRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginMultiSitesRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginReferrersRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginUserLanguageRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginDevicesDetectionRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginGoalsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginEcommerceRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginSEORendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginEventsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginUserCountryRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginVisitsSummaryRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginVisitFrequencyRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginVisitTimeRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginVisitorInterestRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginExampleAPIRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginRssWidgetRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginFeedbackRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginMonologRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginLoginRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginUsersManagerRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginSitesManagerRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginInstallationRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginCoreUpdaterRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginCoreConsoleRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginScheduledReportsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginUserCountryMapRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginLiveRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginCustomVariablesRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginPrivacyManagerRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginImageGraphRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginAnnotationsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginMobileMessagingRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginOverlayRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginSegmentEditorRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginInsightsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginMorpheusRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginContentsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginBulkTrackingRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginResolutionRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginDevicePluginsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginHeartbeatRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginIntlRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginMarketplaceRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginProfessionalServicesRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginUserIdRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginCustomPiwikJsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginCorePluginsAdminTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginCoreAdminHomeTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\CoreAdminHome\\Tasks',
+    'PluginCoreHomeTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginWebsiteMeasurableTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginDiagnosticsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginCoreVisualizationsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginProxyTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginAPITasksPiwik\\Plugin\\Tasks' => false,
+    'PluginExamplePluginTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\ExamplePlugin\\Tasks',
+    'PluginWidgetizeTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginTransitionsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginLanguagesManagerTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginActionsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginDashboardTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginMultiSitesTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginReferrersTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\Referrers\\Tasks',
+    'PluginUserLanguageTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginDevicesDetectionTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginGoalsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginEcommerceTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginSEOTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginEventsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginUserCountryTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\UserCountry\\Tasks',
+    'PluginVisitsSummaryTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginVisitFrequencyTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginVisitTimeTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginVisitorInterestTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginExampleAPITasksPiwik\\Plugin\\Tasks' => false,
+    'PluginRssWidgetTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginFeedbackTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginMonologTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginLoginTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginUsersManagerTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\UsersManager\\Tasks',
+    'PluginSitesManagerTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginInstallationTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginCoreUpdaterTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\CoreUpdater\\Tasks',
+    'PluginCoreConsoleTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginScheduledReportsTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\ScheduledReports\\Tasks',
+    'PluginUserCountryMapTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginLiveTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginCustomVariablesTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginPrivacyManagerTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\PrivacyManager\\Tasks',
+    'PluginImageGraphTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginAnnotationsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginMobileMessagingTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginOverlayTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginSegmentEditorTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginInsightsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginMorpheusTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginContentsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginBulkTrackingTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginResolutionTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginDevicePluginsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginHeartbeatTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginIntlTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginMarketplaceTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\Marketplace\\Tasks',
+    'PluginProfessionalServicesTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginUserIdTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginCustomPiwikJsTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\CustomPiwikJs\\Tasks',
     'PluginDBStatsMetadata' => 
     array (
       'description' => 'DBStats_PluginDescription',
@@ -3255,637 +2635,5 @@
         1 => 'runner',
       ),
     ),
-    'PluginCorePluginsAdminType\\Piwik\\Measurable\\Type' => false,
-    'PluginCoreAdminHomeType\\Piwik\\Measurable\\Type' => false,
-    'PluginCoreHomeType\\Piwik\\Measurable\\Type' => false,
-    'PluginWebsiteMeasurableType\\Piwik\\Measurable\\Type' => 'Piwik\\Plugins\\WebsiteMeasurable\\Type',
-    'PluginDiagnosticsType\\Piwik\\Measurable\\Type' => false,
-    'PluginCoreVisualizationsType\\Piwik\\Measurable\\Type' => false,
-    'PluginProxyType\\Piwik\\Measurable\\Type' => false,
-    'PluginAPIType\\Piwik\\Measurable\\Type' => false,
-    'PluginExamplePluginType\\Piwik\\Measurable\\Type' => false,
-    'PluginWidgetizeType\\Piwik\\Measurable\\Type' => false,
-    'PluginTransitionsType\\Piwik\\Measurable\\Type' => false,
-    'PluginLanguagesManagerType\\Piwik\\Measurable\\Type' => false,
-    'PluginActionsType\\Piwik\\Measurable\\Type' => false,
-    'PluginDashboardType\\Piwik\\Measurable\\Type' => false,
-    'PluginMultiSitesType\\Piwik\\Measurable\\Type' => false,
-    'PluginReferrersType\\Piwik\\Measurable\\Type' => false,
-    'PluginUserLanguageType\\Piwik\\Measurable\\Type' => false,
-    'PluginDevicesDetectionType\\Piwik\\Measurable\\Type' => false,
-    'PluginGoalsType\\Piwik\\Measurable\\Type' => false,
-    'PluginEcommerceType\\Piwik\\Measurable\\Type' => false,
-    'PluginSEOType\\Piwik\\Measurable\\Type' => false,
-    'PluginEventsType\\Piwik\\Measurable\\Type' => false,
-    'PluginUserCountryType\\Piwik\\Measurable\\Type' => false,
-    'PluginVisitsSummaryType\\Piwik\\Measurable\\Type' => false,
-    'PluginVisitFrequencyType\\Piwik\\Measurable\\Type' => false,
-    'PluginVisitTimeType\\Piwik\\Measurable\\Type' => false,
-    'PluginVisitorInterestType\\Piwik\\Measurable\\Type' => false,
-    'PluginExampleAPIType\\Piwik\\Measurable\\Type' => false,
-    'PluginRssWidgetType\\Piwik\\Measurable\\Type' => false,
-    'PluginFeedbackType\\Piwik\\Measurable\\Type' => false,
-    'PluginMonologType\\Piwik\\Measurable\\Type' => false,
-    'PluginLoginType\\Piwik\\Measurable\\Type' => false,
-    'PluginUsersManagerType\\Piwik\\Measurable\\Type' => false,
-    'PluginSitesManagerType\\Piwik\\Measurable\\Type' => false,
-    'PluginInstallationType\\Piwik\\Measurable\\Type' => false,
-    'PluginCoreUpdaterType\\Piwik\\Measurable\\Type' => false,
-    'PluginCoreConsoleType\\Piwik\\Measurable\\Type' => false,
-    'PluginScheduledReportsType\\Piwik\\Measurable\\Type' => false,
-    'PluginUserCountryMapType\\Piwik\\Measurable\\Type' => false,
-    'PluginLiveType\\Piwik\\Measurable\\Type' => false,
-    'PluginCustomVariablesType\\Piwik\\Measurable\\Type' => false,
-    'PluginPrivacyManagerType\\Piwik\\Measurable\\Type' => false,
-    'PluginImageGraphType\\Piwik\\Measurable\\Type' => false,
-    'PluginAnnotationsType\\Piwik\\Measurable\\Type' => false,
-    'PluginMobileMessagingType\\Piwik\\Measurable\\Type' => false,
-    'PluginOverlayType\\Piwik\\Measurable\\Type' => false,
-    'PluginSegmentEditorType\\Piwik\\Measurable\\Type' => false,
-    'PluginInsightsType\\Piwik\\Measurable\\Type' => false,
-    'PluginMorpheusType\\Piwik\\Measurable\\Type' => false,
-    'PluginContentsType\\Piwik\\Measurable\\Type' => false,
-    'PluginBulkTrackingType\\Piwik\\Measurable\\Type' => false,
-    'PluginResolutionType\\Piwik\\Measurable\\Type' => false,
-    'PluginDevicePluginsType\\Piwik\\Measurable\\Type' => false,
-    'PluginHeartbeatType\\Piwik\\Measurable\\Type' => false,
-    'PluginIntlType\\Piwik\\Measurable\\Type' => false,
-    'PluginMarketplaceType\\Piwik\\Measurable\\Type' => false,
-    'PluginProfessionalServicesType\\Piwik\\Measurable\\Type' => false,
-    'PluginUserIdType\\Piwik\\Measurable\\Type' => false,
-    'PluginCustomPiwikJsType\\Piwik\\Measurable\\Type' => false,
-    'availableLanguages' => 
-    array (
-      0 => 
-      array (
-        'code' => 'am',
-        'name' => 'አማርኛ',
-        'english_name' => 'Amharic',
-      ),
-      1 => 
-      array (
-        'code' => 'ar',
-        'name' => 'العربية',
-        'english_name' => 'Arabic',
-      ),
-      2 => 
-      array (
-        'code' => 'be',
-        'name' => 'Беларуская',
-        'english_name' => 'Belarusian',
-      ),
-      3 => 
-      array (
-        'code' => 'bg',
-        'name' => 'Български',
-        'english_name' => 'Bulgarian',
-      ),
-      4 => 
-      array (
-        'code' => 'bn',
-        'name' => 'বাংলা',
-        'english_name' => 'Bangla',
-      ),
-      5 => 
-      array (
-        'code' => 'bs',
-        'name' => 'Bosanski',
-        'english_name' => 'Bosnian',
-      ),
-      6 => 
-      array (
-        'code' => 'ca',
-        'name' => 'Català',
-        'english_name' => 'Catalan',
-      ),
-      7 => 
-      array (
-        'code' => 'cs',
-        'name' => 'Čeština',
-        'english_name' => 'Czech',
-      ),
-      8 => 
-      array (
-        'code' => 'cy',
-        'name' => 'Cymraeg',
-        'english_name' => 'Welsh',
-      ),
-      9 => 
-      array (
-        'code' => 'da',
-        'name' => 'Dansk',
-        'english_name' => 'Danish',
-      ),
-      10 => 
-      array (
-        'code' => 'de',
-        'name' => 'Deutsch',
-        'english_name' => 'German',
-      ),
-      11 => 
-      array (
-        'code' => 'el',
-        'name' => 'Ελληνικά',
-        'english_name' => 'Greek',
-      ),
-      12 => 
-      array (
-        'code' => 'en',
-        'name' => 'English',
-        'english_name' => 'English',
-      ),
-      13 => 
-      array (
-        'code' => 'es',
-        'name' => 'Español',
-        'english_name' => 'Spanish',
-      ),
-      14 => 
-      array (
-        'code' => 'et',
-        'name' => 'Eesti',
-        'english_name' => 'Estonian',
-      ),
-      15 => 
-      array (
-        'code' => 'eu',
-        'name' => 'Euskara',
-        'english_name' => 'Basque',
-      ),
-      16 => 
-      array (
-        'code' => 'fa',
-        'name' => 'فارسی',
-        'english_name' => 'Persian',
-      ),
-      17 => 
-      array (
-        'code' => 'fi',
-        'name' => 'Suomi',
-        'english_name' => 'Finnish',
-      ),
-      18 => 
-      array (
-        'code' => 'fr',
-        'name' => 'Français',
-        'english_name' => 'French',
-      ),
-      19 => 
-      array (
-        'code' => 'gl',
-        'name' => 'Galego',
-        'english_name' => 'Galician',
-      ),
-      20 => 
-      array (
-        'code' => 'he',
-        'name' => 'עברית',
-        'english_name' => 'Hebrew',
-      ),
-      21 => 
-      array (
-        'code' => 'hi',
-        'name' => 'हिन्दी',
-        'english_name' => 'Hindi',
-      ),
-      22 => 
-      array (
-        'code' => 'hr',
-        'name' => 'Hrvatski',
-        'english_name' => 'Croatian',
-      ),
-      23 => 
-      array (
-        'code' => 'hu',
-        'name' => 'Magyar',
-        'english_name' => 'Hungarian',
-      ),
-      24 => 
-      array (
-        'code' => 'id',
-        'name' => 'Indonesia',
-        'english_name' => 'Indonesian',
-      ),
-      25 => 
-      array (
-        'code' => 'is',
-        'name' => 'Íslenska',
-        'english_name' => 'Icelandic',
-      ),
-      26 => 
-      array (
-        'code' => 'it',
-        'name' => 'Italiano',
-        'english_name' => 'Italian',
-      ),
-      27 => 
-      array (
-        'code' => 'ja',
-        'name' => '日本語',
-        'english_name' => 'Japanese',
-      ),
-      28 => 
-      array (
-        'code' => 'ka',
-        'name' => 'ქართული',
-        'english_name' => 'Georgian',
-      ),
-      29 => 
-      array (
-        'code' => 'ko',
-        'name' => '한국어',
-        'english_name' => 'Korean',
-      ),
-      30 => 
-      array (
-        'code' => 'lt',
-        'name' => 'Lietuvių',
-        'english_name' => 'Lithuanian',
-      ),
-      31 => 
-      array (
-        'code' => 'lv',
-        'name' => 'Latviešu',
-        'english_name' => 'Latvian',
-      ),
-      32 => 
-      array (
-        'code' => 'nb',
-        'name' => 'Norsk bokmål',
-        'english_name' => 'Norwegian Bokmål',
-      ),
-      33 => 
-      array (
-        'code' => 'nl',
-        'name' => 'Nederlands',
-        'english_name' => 'Dutch',
-      ),
-      34 => 
-      array (
-        'code' => 'nn',
-        'name' => 'Nynorsk',
-        'english_name' => 'Norwegian Nynorsk',
-      ),
-      35 => 
-      array (
-        'code' => 'pl',
-        'name' => 'Polski',
-        'english_name' => 'Polish',
-      ),
-      36 => 
-      array (
-        'code' => 'pt-br',
-        'name' => 'Português (Brasil)',
-        'english_name' => 'Brazilian Portuguese',
-      ),
-      37 => 
-      array (
-        'code' => 'pt',
-        'name' => 'Português',
-        'english_name' => 'Portuguese',
-      ),
-      38 => 
-      array (
-        'code' => 'ro',
-        'name' => 'Română',
-        'english_name' => 'Romanian',
-      ),
-      39 => 
-      array (
-        'code' => 'ru',
-        'name' => 'Русский',
-        'english_name' => 'Russian',
-      ),
-      40 => 
-      array (
-        'code' => 'sk',
-        'name' => 'Slovenčina',
-        'english_name' => 'Slovak',
-      ),
-      41 => 
-      array (
-        'code' => 'sl',
-        'name' => 'Slovenščina',
-        'english_name' => 'Slovenian',
-      ),
-      42 => 
-      array (
-        'code' => 'sq',
-        'name' => 'Shqip',
-        'english_name' => 'Albanian',
-      ),
-      43 => 
-      array (
-        'code' => 'sr',
-        'name' => 'Српски',
-        'english_name' => 'Serbian',
-      ),
-      44 => 
-      array (
-        'code' => 'sv',
-        'name' => 'Svenska',
-        'english_name' => 'Swedish',
-      ),
-      45 => 
-      array (
-        'code' => 'ta',
-        'name' => 'தமிழ்',
-        'english_name' => 'Tamil',
-      ),
-      46 => 
-      array (
-        'code' => 'te',
-        'name' => 'తెలుగు',
-        'english_name' => 'Telugu',
-      ),
-      47 => 
-      array (
-        'code' => 'th',
-        'name' => 'ไทย',
-        'english_name' => 'Thai',
-      ),
-      48 => 
-      array (
-        'code' => 'tl',
-        'name' => 'Tagalog',
-        'english_name' => 'Tagalog',
-      ),
-      49 => 
-      array (
-        'code' => 'tr',
-        'name' => 'Türkçe',
-        'english_name' => 'Turkish',
-      ),
-      50 => 
-      array (
-        'code' => 'uk',
-        'name' => 'Українська',
-        'english_name' => 'Ukrainian',
-      ),
-      51 => 
-      array (
-        'code' => 'vi',
-        'name' => 'Tiếng Việt',
-        'english_name' => 'Vietnamese',
-      ),
-      52 => 
-      array (
-        'code' => 'zh-cn',
-        'name' => '简体中文',
-        'english_name' => 'Simplified Chinese',
-      ),
-      53 => 
-      array (
-        'code' => 'zh-tw',
-        'name' => '繁體中文',
-        'english_name' => 'Traditional Chinese',
-      ),
-    ),
-    'PluginCorePluginsAdminRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCoreAdminHomeRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCoreHomeRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginWebsiteMeasurableRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginDiagnosticsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCoreVisualizationsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginProxyRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginAPIRendererPiwik\\API\\ApiRenderer' => 
-    array (
-      '/var/www/matomo/plugins/API/Renderer/Console.php' => 'Piwik\\Plugins\\API\\Renderer\\Console',
-      '/var/www/matomo/plugins/API/Renderer/Csv.php' => 'Piwik\\Plugins\\API\\Renderer\\Csv',
-      '/var/www/matomo/plugins/API/Renderer/Html.php' => 'Piwik\\Plugins\\API\\Renderer\\Html',
-      '/var/www/matomo/plugins/API/Renderer/Json2.php' => 'Piwik\\Plugins\\API\\Renderer\\Json2',
-      '/var/www/matomo/plugins/API/Renderer/Json.php' => 'Piwik\\Plugins\\API\\Renderer\\Json',
-      '/var/www/matomo/plugins/API/Renderer/Original.php' => 'Piwik\\Plugins\\API\\Renderer\\Original',
-      '/var/www/matomo/plugins/API/Renderer/Php.php' => 'Piwik\\Plugins\\API\\Renderer\\Php',
-      '/var/www/matomo/plugins/API/Renderer/Rss.php' => 'Piwik\\Plugins\\API\\Renderer\\Rss',
-      '/var/www/matomo/plugins/API/Renderer/Tsv.php' => 'Piwik\\Plugins\\API\\Renderer\\Tsv',
-      '/var/www/matomo/plugins/API/Renderer/Xml.php' => 'Piwik\\Plugins\\API\\Renderer\\Xml',
-    ),
-    'PluginExamplePluginRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginWidgetizeRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginTransitionsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginLanguagesManagerRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginActionsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginDashboardRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginMultiSitesRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginReferrersRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginUserLanguageRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginDevicesDetectionRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginGoalsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginEcommerceRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginSEORendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginEventsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginUserCountryRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginVisitsSummaryRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginVisitFrequencyRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginVisitTimeRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginVisitorInterestRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginExampleAPIRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginRssWidgetRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginFeedbackRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginMonologRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginLoginRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginUsersManagerRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginSitesManagerRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginInstallationRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCoreUpdaterRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCoreConsoleRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginScheduledReportsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginUserCountryMapRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginLiveRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCustomVariablesRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginPrivacyManagerRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginImageGraphRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginAnnotationsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginMobileMessagingRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginOverlayRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginSegmentEditorRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginInsightsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginMorpheusRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginContentsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginBulkTrackingRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginResolutionRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginDevicePluginsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginHeartbeatRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginIntlRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginMarketplaceRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginProfessionalServicesRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginUserIdRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCustomPiwikJsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCorePluginsAdminMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginCoreAdminHomeMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginCoreHomeMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginWebsiteMeasurableMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => 'Piwik\\Plugins\\WebsiteMeasurable\\MeasurableSettings',
-    'PluginDiagnosticsMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginCoreVisualizationsMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginProxyMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginAPIMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginExamplePluginMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginWidgetizeMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginTransitionsMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginLanguagesManagerMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginActionsMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginDashboardMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginMultiSitesMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginReferrersMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginUserLanguageMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginDevicesDetectionMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginGoalsMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginEcommerceMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginSEOMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginEventsMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginUserCountryMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginVisitsSummaryMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginVisitFrequencyMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginVisitTimeMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginVisitorInterestMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginExampleAPIMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginRssWidgetMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginFeedbackMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginMonologMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginLoginMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginUsersManagerMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginSitesManagerMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginInstallationMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginCoreUpdaterMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginCoreConsoleMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginScheduledReportsMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginUserCountryMapMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginLiveMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginCustomVariablesMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginPrivacyManagerMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginImageGraphMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginAnnotationsMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginMobileMessagingMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginOverlayMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginSegmentEditorMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginInsightsMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginMorpheusMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginContentsMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginBulkTrackingMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginResolutionMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginDevicePluginsMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginHeartbeatMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginIntlMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginMarketplaceMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginProfessionalServicesMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginUserIdMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
-    'PluginCustomPiwikJsMeasurableSettingsPiwik\\Settings\\Measurable\\MeasurableSettings' => false,
   ),
 );

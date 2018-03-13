@@ -1,0 +1,90 @@
+/*
+
+The Styles You Haven't Done Yet
+Copyright (c) 2018, Peter A. McKay
+Free to use under MIT License...
+Suckas!
+
+*/
+
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+
+@font-face {
+  font-family: 'Hattori Hanzo';
+  src: url('hattori_hanzo/webfont.eot') format('eot'), url('fonts/hattori_hanzo/webfont.eot?iefix') format('eot'),
+       url('hattori_hanzo/webfont.woff') format('woff'),
+       url('hattori_hanzo/webfont.ttf') format('truetype'),
+       url('hattori_hanzo/webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+  font-family: 'Merriweather Sans Light';
+       src: url('merriweather-sans/MerriweatherSans-Light.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-Regular.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-Italic.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-Bold.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-BoldItalic.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-ExtraBold.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-ExtraBoldItalic.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-LightItalic.otf') format('opentype');
+}
+
+
+body {
+  background: none;
+  color: #f2f2f2;
+  }
+
+html {
+  background: url('../img/ubuntu.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+html, html * {
+  font-family: 'Merriweather Sans Light', sans-serif;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hattori Hanzo', sans-serif;
+  margin-bottom: 1rem;
+  }
+
+a, a:visited {
+   color: #2A25B8; 
+   /* Indizr orange... color: #FF9100; */
+   font-weight: bold;
+   text-decoration: none;
+  }
+ 
+a:hover {text-decoration: underline;}
+ 
+.content {
+  width: 60%;
+  min-width: 250px;
+  margin: 2rem auto 8rem auto;
+  text-align: center;
+  }
+  
+
+
+#homepage>img {
+  width: auto;
+  max-width: 275px;
+  background: #f2f2f2;
+  padding: 2px;
+  margin-bottom: 1.5rem;
+  }
+
+
+#homepage .social img {max-width: 50px;}
+
+.social * {
+  list-style: none;
+  display: inline-block;
+  margin: 0.25rem;
+}

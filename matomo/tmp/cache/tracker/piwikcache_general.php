@@ -1,9 +1,9 @@
 <?php return array (
-  'lifetime' => 1517699751,
+  'lifetime' => 1520826002,
   'data' => 
   array (
     'isBrowserTriggerEnabled' => true,
-    'lastTrackerCronRun' => '1517696263',
+    'lastTrackerCronRun' => '1520825700',
     'allUrlsByHostAndIdSite' => 
     array (
       'indizr.com' => 
