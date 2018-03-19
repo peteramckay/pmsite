@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /portfolio/
+Disallow: /piwik/
+Disallow: /x/
