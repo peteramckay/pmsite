@@ -31,10 +31,12 @@ Suckas!
 }
 
 
-body {}
-
-html, html * {
+body {
   font-family: 'Merriweather Sans Light', sans-serif;
+  background: url('../img/ubuntu.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   }
 
 
@@ -43,9 +45,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
   }
 
+img {max-width: 100%}
+
 a, a:visited {
-   color: #2A25B8; 
-   /* Indizr orange... color: #FF9100; */
+   /* 
+   
+   color: #2A25B8;     Desmond blue
+   color: #FF9100;     Indizr orange
+   
+   */
+   
+   color: white;
    font-weight: bold;
    text-decoration: none;
   }
@@ -55,16 +65,48 @@ a:hover {text-decoration: underline;}
 .content {
   width: 60%;
   min-width: 250px;
-  margin: 4rem auto 8rem auto;
+  margin: 2.5rem auto 10rem auto;
+  color: #f2f2f2;
   }
 
-#homepage h1 {font-weight: bold}
+.navigation {
+      padding: 0 2%;
+      background: #404040;
+      color: #f2f2f2;      
+    }
+  
+.navigation>* {display:inline-block;}
+    
+.navigation hr {}
+    
+.navigation span, .navigation span * {
+      display: inline-block;
+    }
+    
+.navigation span {
+  float: right;
+  margin-top: 0.25rem;
+}
+
+.navigation img { /* Styles for all navbar images*/
+  height: auto;
+  width: auto;
+  margin: 0.25rem 0;
+  padding: 0;
+}
+
+
+.navigation>img { /* Styles for hedcut only*/
+  max-height: 45px;
+  background: #f2f2f2;
+  margin-right: 1.25rem
+  }
+
+.navigation span img { /* Styles for social icons only*/
+  max-height: 35px;  
+}
+
+#homepage h1 {}
 
 #homepage span a, #homepage span a:visited {font-weight: normal;}
   
-#homepage>img { /* Styles for hedcut... */
-  width: auto;
-  max-width: 100px;
-  float: left;
-  }
-
