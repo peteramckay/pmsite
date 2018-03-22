@@ -8,6 +8,13 @@ Suckas!
 */
 
 
+
+
+
+
+/*  Basics & Typography  */
+
+
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
 
 @font-face {
@@ -31,7 +38,7 @@ Suckas!
 }
 
 
-body {
+#homepage {
   font-family: 'Merriweather Sans Light', sans-serif;
   background: url('../img/ubuntu.jpg');
   background-size: cover;
@@ -47,18 +54,6 @@ h1, h2, h3, h4, h5, h6 {
 
 img {max-width: 100%}
 
-a, a:visited {
-   /* 
-   
-   color: #2A25B8;     Desmond blue
-   color: #FF9100;     Indizr orange
-   
-   */
-   
-   color: white;
-   font-weight: bold;
-   text-decoration: none;
-  }
  
 a:hover {text-decoration: underline;}
  
@@ -96,7 +91,7 @@ a:hover {text-decoration: underline;}
 }
 
 
-.navigation>img { /* Styles for hedcut only*/
+.navigation .hedcut { /* Styles for hedcut only*/
   max-height: 45px;
   background: #f2f2f2;
   margin-right: 1.25rem
@@ -106,7 +101,76 @@ a:hover {text-decoration: underline;}
   max-height: 35px;  
 }
 
+
+
+
+
+/*  Homepage Styles  */
+
+#homepage a, #homepage a:visited {
+   /* 
+   
+   color: #2A25B8;     Desmond blue
+   color: #FF9100;     Indizr orange
+   
+   */
+   
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+  }
+
 #homepage h1 {}
 
 #homepage span a, #homepage span a:visited {font-weight: normal;}
   
+  
+  
+/* Sedley Page Styles  */
+
+
+
+    #sedley {
+       padding-bottom: 5rem;
+       }
+   
+
+   #sedley #content {
+    width: 96%;
+    max-width: 37rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+   }
+
+  #sedley h1 {margin-top: 1.5rem}
+
+  #sedley #byline {
+     display: inline-block;
+     margin: 1rem 0 2rem;
+   }
+
+  #sedley #byline *{
+    font-weight: normal;
+    font-style: italic;
+     margin: 0;
+     padding: 0;
+   }
+
+  #sedley #citizen {
+      display: inline;
+      width: 33%;
+      max-width: 1000px;
+      float: right;
+      margin: 1rem 0 1rem 2.5rem;
+   }
+
+   #sedley iframe {margin: 1rem 0;}
+
+
+
+
+/*  Media Queries  */
+
+
+
+
