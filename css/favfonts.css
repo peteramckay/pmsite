@@ -1,0 +1,22 @@
+/* A stylesheet to make my favorite webfonts more readily available... */
+
+@font-face {
+  font-family: 'Hattori Hanzo';
+  src: url('hattori_hanzo/webfont.eot') format('eot'), url('fonts/hattori_hanzo/webfont.eot?iefix') format('eot'),
+       url('hattori_hanzo/webfont.woff') format('woff'),
+       url('hattori_hanzo/webfont.ttf') format('truetype'),
+       url('hattori_hanzo/webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+  font-family: 'Merriweather Sans Light';
+       src: url('merriweather-sans/MerriweatherSans-Light.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-Regular.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-Italic.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-Bold.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-BoldItalic.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-ExtraBold.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-ExtraBoldItalic.otf') format('opentype'),
+            url('merriweather-sans/MerriweatherSans-LightItalic.otf') format('opentype');
+}
+
