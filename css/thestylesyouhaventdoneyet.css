@@ -38,12 +38,15 @@ Suckas!
 }
 
 
+
+
 #homepage {
   font-family: 'Merriweather Sans Light', sans-serif;
-  background: url('../img/ubuntu.jpg');
+  background: #878787;
+/*  background: url('../img/ubuntu.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   }
 
 
@@ -61,7 +64,7 @@ a:hover {text-decoration: underline;}
   width: 60%;
   min-width: 250px;
   margin: 2.5rem auto 10rem auto;
-  color: #f2f2f2;
+  color: #f2f2f2; 
   }
 
 .navigation {
@@ -106,6 +109,8 @@ a:hover {text-decoration: underline;}
 
 
 /*  Homepage Styles  */
+
+
 
 #homepage a, #homepage a:visited {
    /* 
